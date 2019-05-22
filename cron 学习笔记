@@ -1,0 +1,192 @@
+
+1、首先创建一个定时任务：每分钟向屏幕输出"Hello world!"。
+
+有两种实现方式：
+
+1）输入crontab -e命令，根据提示直接在当前cron task文本最后面插入如下命令（记得回车）：
+
+* * * * * echo "Hello world!"
+
+2）由于每个用户的定时任务都在/var/spool/cron/crontabs目录下有个与用户名一致的任务文件，因此也可以通过vim直接编辑：
+
+sudo vim /var/spool/cron/crontabs/waterfronter             #注:waterfronter为当前用户名
+
+同样在文件末行插入：
+
+* * * * * echo "Hello world!"
+
+保存退出，并通过crontab -l查看定时任务创建成功。
+------------ 
+ 以上验证OK 
+
+2,
+2、然后等待，若干分钟后发现屏幕并未输出"Hello world!"怎么回事？！
+
+1）刚开始怀疑是cron服务没有启动，遂执行：
+
+sudo service cron status
+
+发现cron服务是running的，排除；
+
+2）继而怀疑是任务文件创建后未能被系统及时get到，因而执行：
+
+sudo service cron restart
+
+重启cron后问题依旧，排除；
+
+3）于是进一步查看cron运行日志（/var/log/cron.log），但是并未找到相关文件，原因是ubuntu默认没有开cron日志，执行命令：
+
+sudo vim /etc/rsyslog.d/50-default.conf
+
+找到cron.log相关行，将前面注释符#去掉，保存退出，重启rsyslog：
+
+sudo  service rsyslog  restart
+
+执行less -10 /var/log/cron.log再次查看cron运行日志，log出来了，提示如下信息：
+
+No
+ MTA installed, discarding output
+
+原因是cron把屏幕输出都发送到email了，而当前环境并未安装email server，于是系统报错，解决方面就是不要直接向屏幕输出内容，而是重定向到一个文件。
+
+
+--------------------- 
+验证Ok，看到日志了
+
+cat /var/log/cron.log
+
+-----------------------
+
+3、修改任务文件
+
+sudo vim /var/spool/cron/crontabs/waterfronter
+
+将末行改为：
+
+* * * * * echo "Hello world!" >> /tmp/cron_log.txt
+
+保存退出，同时reload cron服务：
+
+sudo service cron reload
+
+若干分钟后查看/tmp/cron_log.txt，“Hello world!”每隔一分钟输出一次，问题解决。
+--------------------- 
+验证Ok 
+可以看到 cron_log.txt日志文件，也能看到 里面的内容 Hello world
+
+
+-------------------------
+
+命令总结：
+
+
+用以下的方法启动、关闭这个cron服务： 
+service cron start //启动服务 
+service cron stop //关闭服务 
+service cron restart //重启服务 
+service cron reload //重新载入配置
+
+查看crontab服务状态：service cron status 
+手动启动crontab服务：service cron start 
+
+新增调度任务可用两种方法： 
+1)、在命令行输入: crontab -e 然后添加相应的任务，wq存盘退出。 
+2)、直接编辑/etc/crontab 文件，即vi /etc/crontab，添加相应的任务。 
+crontab -e配置是针对某个用户的，而编辑/etc/crontab是针对系统的任务 
+查看调度任务 
+crontab -l //列出当前的所有调度任务 
+crontab -l -u jp //列出用户jp的所有调度任务 
+删除任务调度工作 
+crontab -r //删除所有任务调度工作 
+
+
+* * * * * echo "Hello world!" 中“*”的解释：
+
+minute - 从0到59的整数 
+hour - 从0到23的整数 
+day - 从1到31的整数 (必须是指定月份的有效日期)
+month - 从1到12的整数 (或如Jan或Feb简写的月份)
+dayofweek - 从0到7的整数，0或7用来描述周日 (或用Sun或Mon简写来表示)
+command - 需要执行的命令(可用as ls /proc >> /tmp/proc或 执行自定义脚本的命令) 
+
+除了数字还有几个特殊的符号："*"、"/"和"-"、","
+
+    *代表所有的取值范围内的数字
+    "/"代表每的意思,"/5"表示每5个单位
+    "-"代表从某个数字到某个数字
+    ","分开几个离散的数字
+
+-----------------
+
+例子：
+
+15,30,45,59 * * * * echo "xgmtest....."     表示，每隔15分钟，执行一次打印命令 
+
+每天早上6点
+0 6 * * * echo "Good morning." >> /tmp/test.txt //注意单纯echo，从屏幕上看不到任何输出，因为cron把任何输出都email到root的信箱了。
+ 
+每两个小时(第一个为15，指明没两个小时的第15min中执行一次)
+15 */2 * * * echo "Have a break now." >> /tmp/test.txt 
+ 
+晚上11点到早上8点之间每两个小时和早上八点
+0 23-7/2，8 * * * echo "Have a good dream" >> /tmp/test.txt
+ 
+每个月的4号和每个礼拜的礼拜一到礼拜三的早上11点
+0 11 4 * 1-3 command line
+ 
+1月1日早上4点
+0 4 1 1 * command line
+ 
+每小时（第一分钟）执行/etc/cron.hourly内的脚本
+01 * * * * root run-parts /etc/cron.hourly
+ 
+每天（凌晨4：02）执行/etc/cron.daily内的脚本
+02 4 * * * root run-parts /etc/cron.daily
+ 
+每星期（周日凌晨4：22）执行/etc/cron.weekly内的脚本
+22 4 * * 0 root run-parts /etc/cron.weekly
+ 
+每月（1号凌晨4：42）去执行/etc/cron.monthly内的脚本
+42 4 1 * * root run-parts /etc/cron.monthly
+ 
+注意:  "run-parts"这个参数了，如果去掉这个参数的话，后面就可以写要运行的某个脚本名，而不是文件夹名。 　
+ 
+每天的下午4点、5点、6点的5 min、15 min、25 min、35 min、45 min、55 min时执行命令。
+5，15，25，35，45，55 16，17，18 * * * command
+ 
+每周一，三，五的下午3：00系统进入维护状态，重新启动系统。
+00 15 * *1，3，5 shutdown -r +5
+ 
+每小时的10分，40分执行用户目录下的innd/bbslin这个指令：
+10，40 * * * * innd/bbslink
+ 
+每小时的1分执行用户目录下的bin/account这个指令：
+1 * * * * bin/account
+ 
+每天早晨三点二十分执行用户目录下如下所示的两个指令（每个指令以;分隔）：
+203 * * * （/bin/rm -f expire.ls logins.bad;bin/expire$#@62;expire.1st）　　
+ 
+每年的一月和四月，4号到9号的3点12分和3点55分执行/bin/rm -f expire.1st这个指令，并把结果添加在mm.txt这个文件之后（mm.txt文件位于用户自己的目录位置）。
+12,553 4-91,4 * /bin/rm -f expire.1st$#@62;$#@62;mm.txt
+--------------------- 
+
+
+ 3. 系统级任务调度与用户级任务调度
+
+系统级任务调度主要完成系统的一些维护操作，用户级任务调度主要完成用户自定义的一些任务，可以将用户级任务调度放到系统级任务调度来完成（不建议这么做），但是反过来却不行，root用户的任务调度操作可以通过“crontab –uroot –e”来设置，也可以将调度任务直接写入/etc/crontab文件，需要注意的是，如果要定义一个定时重启系统的任务，就必须将任务放到/etc/crontab文件，即使在root用户下创建一个定时重启系统的任务也是无效的。
+
+https://blog.csdn.net/killmice/article/details/52852974
+crontab命令 自动重启服务
+
+----------------------
+在 /etc/crontab中手工编辑设置 定时重启服务器 shutdown -r
+测试结果：系统重启Ok
+证据：
+1,证据，在定时重启中间，ping 命令一段时间没有返回，过一会儿又好了。 
+2,ssh 远程命令在重启的时候，不能登陆，一会儿又可以登陆了
+3，ssh上线后，top命令查看上线时间
+4,  查看 /var/log/cron.txt 日志，确定shutdown -r命令执行了。没有报错。
+
+
+
+
