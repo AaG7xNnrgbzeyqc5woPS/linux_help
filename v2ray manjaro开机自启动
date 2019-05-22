@@ -38,3 +38,10 @@ systemctl restart v2ray
 
 5、查看运行状态
 ps -ef |grep v2ray
+
+--------------
+补充两个命令
+systemctl enable v2ray
+systemctl status v2ray
+
+更简单的方式可以使用docker 安装客户端
