@@ -1,0 +1,70 @@
+ manjaro在virtualbox下的安装笔记 
+ --最后结果失败
+ 
+一，原始镜像文件：
+manjaro 18.04 xfce
+manjaro-xfce-18.0.4-stable-x86_64.iso   发布时间  2019.3.12  尺寸： 1.9GiB
+安装在虚拟机里 virtual box
+
+二，virutal box 虚拟机 参数：
+1, 内存 2G
+2, 控制器 SATA：硬盘 80G，固态驱动器
+
+三,安装选项：
+1） 启动安装盘 manjaro-xfce-18.0.4-stable-x86_64.iso 
+ tz=UTC
+keytable=US
+lang=en_US
+driver=free
+Boot: Manjaro.x86_64 xfce
+注释：
+1, 以上选项都是缺省的，不用修改，安装好后再改成中文的，这样，home文件目录下的子目录名就都是英文的，避免输入路径名，方便使用
+
+2）启动后，选择安装到 硬盘
+ 语言，键盘都不变，时区选择shanghai
+
+  3)安装完成，OK！
+四，安装 virtual box 附件，以便使用文件共享，全屏
+       参看链接：
+   https://www.heartnn.com/2018/11/21/something-to-do-after-install-manjaro-in-virtualbox/
+1, 安装附件
+      sudo pacman -S virtualbox-guest-utils
+               选择同内核对应的版本，
+               内核查看 uname -a, uname -r
+
+ 2, 启动服务
+    sudo systemctl enable vboxservice
+sudo mkdir /media
+sudo gpasswd -a $USER vboxsf
+reboot
+
+3, 然后 点 设备 “安装增强功能”
+ 
+ 在客户机里 可以点开 增强功能光盘，
+  进入 CD所在的目录：
+     cd /run/median/john/VBox_GAs_6.0.4/
+     sudo sh VBoxLinuxAdditions.run
+-- 最后没有安装成功！---
+--删除原先的虚拟机，重新安装，注意备份虚拟机，做一个快照，在安装“客户附件” Guest addon 之前
+
+------------------
+错误提示为：Please install the Linux kernel "header" files matching the current kernel，
+
+直译过来：请安装与当前内核匹配的Linux内核“header”文件，
+
+原因是Linux4.19内核的RedHat内核版本的头文件的位置发生了变化，导致安装失败。
+
+解决办法：使用 sudo pacman -S linux-headers 命令 选择对应的内核版本 安装完毕后，重启系统，再次安装即可
+https://blog.csdn.net/qq_42050903/article/details/85273163
+
+
+
+
+
+
+
+
+
+
+
+
