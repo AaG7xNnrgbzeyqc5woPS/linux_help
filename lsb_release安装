@@ -1,0 +1,19 @@
+
+CentOS7,8  无法使用 lsb_release
+#lsb_release -a
+bash: lsb_release: command not found...
+
+打开CentOS7，8,想要使用 lsb_release 查看系统版本信息。
+
+解决方法如下：
+
+#系统自带方法产看系统版本
+# cat /etc/redhat-release 
+CentOS Linux release 7.6.1810 (Core) 
+
+#安装redhat-lsb，等价于redhat-lsb-core
+# yum install -y redhat-lsb
+
+#再重新执行
+#lsb_release -a
+应该Ok！
