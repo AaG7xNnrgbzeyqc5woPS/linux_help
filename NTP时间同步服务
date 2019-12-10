@@ -1,0 +1,82 @@
+很多服务要求客户端和服务器时间要同步，比如说谷歌认证。
+先检查时间
+
+参看下文：
+System time (简体中文)
+https://wiki.archlinux.org/index.php/System_time_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
+
+使用 timedatectl 查看当前时间
+$ timedatectl
+               Local time: Tue 2019-12-10 20:37:07 CST
+           Universal time: Tue 2019-12-10 12:37:07 UTC
+                 RTC time: Tue 2019-12-10 12:37:07
+                Time zone: Asia/Shanghai (CST, +0800)
+System clock synchronized: yes
+              NTP service: inactive
+          RTC in local TZ: no
+
+-------------------------------------
+二，manjaro客户端 NTP服务器客户端的配置
+参看下文：
+Network Time Protocol daemon (简体中文)
+https://wiki.archlinux.org/index.php/Network_Time_Protocol_daemon_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
+
+1, 最简单的情况：
+a), 如果没有安装请先安装 ntpd服务
+b), 直接启动：
+$systemctl start ntpd
+$systemctl enable ntpd
+$systemctl status ntpd
+ 
+c), 等几分钟检查时间同步情况
+$ntpq -pn
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+ 2.centos.pool.n .POOL.          16 p    -   64    0    0.000    0.000   0.000
++119.28.206.193  100.122.36.196   2 u   31  128  377   43.984    2.850   8.789
+-94.130.49.186   195.13.23.5      3 u  176  128  366  223.248   -8.760   3.410
+-51.158.186.98   17.253.34.125    2 u   31  128  277  228.362  -13.082   1.729
+-144.76.76.107   205.46.178.169   2 u  126  128  377  241.882  -15.894   2.209
+*139.199.214.202 100.122.36.196   2 u  111  128  377   22.984   -4.821   1.995
++193.182.111.12  194.58.202.20    2 u  133  128  137  242.009   -2.898   3.023
+ 108.59.2.24     130.133.1.10     2 u  35m 1024    0  254.086   -2.443   0.000
+
+
+ntpd 同步的服务器前有星号
+应该能能看到 连接的上游时间服务器。如果不行再等等，最多可能要等半小时。
+
+2,进一步配置：
+/etc/ntp.conf
+server 0.pool.ntp.org iburst
+server 1.pool.ntp.org iburst
+server 2.pool.ntp.org iburst
+server 3.pool.ntp.org iburst
+
+可以修改 /etc/ntp.conf 配置文件，我就多加了几个时间服务器。
+可以参看这儿：
+https://www.ntppool.org/en/use.html
+
+3，centos 8 服务器 
+
+How to configure NTP server on RHEL 8 / CentOS 8 Linux
+https://linuxconfig.org/redhat-8-configure-ntp-server
+How to configure Chrony as NTP server. 
+
+https://www.tecmint.com/install-ntp-in-rhel-8/
+NTP相关的服务是 chronyd
+请参考，这个我没有配置成功，先放下
+
+4，发现了Systemd-timesyncd
+参见
+https://wiki.archlinux.org/index.php/Systemd-timesyncd
+
+使用 timedatectl 就可以启动该服务，systemd自带的时间同步，对于大多数客户都适用，使用简化版本的SNTP协议。
+下一次尝试使用下。
+
+over
+完毕！
+
+
+
+
+
