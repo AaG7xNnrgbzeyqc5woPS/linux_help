@@ -20,22 +20,11 @@
    比如说支持的最大内存数等。
    
    
-5.  
-  ifconfig -a  
-  ip address  
-  ip show  
-  ethtool eth0  #如果要查看某个网络接口的详细信息，例如eth0的详细参数和指标  
-  
-  
-   
-
-
-
-
-
-
-
-
+5. ifconfig -a  
+   ip address  
+   ip show  
+   ethtool eth0  #如果要查看某个网络接口的详细信息，例如eth0的详细参数和指标  
+ 
 ## 参考:
 1. https://baijiahao.baidu.com/s?id=1588856288153869161&wfr=spider&for=pc
 2. https://www.cnblogs.com/cloudos/p/8416415.html
