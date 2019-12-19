@@ -18,8 +18,8 @@ C-b d 退出当前session
 tmux ls  
 tmux new -s session_name  
 tmux attach  
-tmux attach -t 0  
-tmux attach sessin_namec    
+tmux attach -t session_name    # attach target-session   
+
 C-b d         detach  保留并且退出当前session,  这里退出会话只是客户端退出会话,会话服务还在运行.  
 exit / C-d    结束并且退出当前会话, exit
 
