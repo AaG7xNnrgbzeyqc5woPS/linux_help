@@ -1,0 +1,17 @@
+Linux用户和权限管理：用户/组增删改查、文件权限
+https://blog.csdn.net/xietansheng/article/details/80044620
+
+Linux权限位及特殊（S位）
+https://blog.csdn.net/weixin_42425141/article/details/81172054
+
+----------------------------------
+创建新用户
+
+useradd -m john  
+ #创建john用户,自动创建一个john组,并且把新用户加入john组
+ #自动创建 home文件夹给john用户, 文件夹路径: /home/john/
+ 
+ usermod -aG sudo john
+ 将john加入 sudo组,这样john就可以使用sudo命令
+ ---------------------------
+
