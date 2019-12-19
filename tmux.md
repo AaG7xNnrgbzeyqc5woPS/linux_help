@@ -18,7 +18,8 @@ C-b d 退出当前session
 tmux ls  
 tmux new -s session_name  
 tmux attach  
-tmux attach -t session_name    # attach target-session   
+tmux attach -t session_name    # attach target-session  
+tmux rename-session -t 0 database  # rename session
 
 C-b d         detach  保留并且退出当前session,  这里退出会话只是客户端退出会话,会话服务还在运行.  
 exit / C-d    结束并且退出当前会话, exit
