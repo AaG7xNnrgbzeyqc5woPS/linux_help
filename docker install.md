@@ -7,6 +7,9 @@ https://docs.docker.com/v17.12/install/linux/docker-ce/debian/
 Get Docker CE for CentOS
 https://docs.docker.com/v17.12/install/linux/docker-ce/centos/
 
+Post-installation steps for Linux
+https://docs.docker.com/v17.12/install/linux/linux-postinstall/
+
 # 启动docker服务
  Start Docker
   
