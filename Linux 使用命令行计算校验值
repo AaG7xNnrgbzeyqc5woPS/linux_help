@@ -1,0 +1,7 @@
+
+
+# Linux 使用命令行计算校验值
+
+1. md5sum /works/Hello.txt 
+2. sha1sum /works/Hello.txt 
+3. sha256sum /works/Hello.txt
