@@ -1,3 +1,17 @@
+see:
+  [镜像]镜像操作losetup
+  https://www.cnblogs.com/aaronLinux/p/7503359.html
+  深度好文,可以在镜像上安装文件系统,  chroot
+  
+  通过kpartx方式挂载raw格式镜像
+  https://blog.csdn.net/cnyyx/article/details/27182833
+  
+  注意:
+   我的理解, raw方式的镜像, 就是直接使用dd命令生成的镜像.
+   
+   
+   
+  
 
 
 	$kpartx --help
