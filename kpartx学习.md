@@ -51,6 +51,27 @@ see:
 	sudo mkfs.ext4 /dev/mapper/loop0p2
 	(注意: 分区内有内容就不要格式化,会破坏数据的)
 	
+	
+	$ ls /dev/mapper
+	control  loop0p1  loop0p2
+	
+	//挂载分区到文件系统
+	$ sudo mount /dev/mapper/loop0p1 /mnt/img1 挂载分区到文件系统
+	[sudo] password for john: 
+	
+	$ sudo mount /dev/mapper/loop0p2 /mnt/img2
+	
+	$ ls /mnt/img1
+	bcm2708-rpi-0-w.dtb       COPYING.linux     README
+	bcm2708-rpi-b.dtb         fixup_cd.dat      ssh
+	bcm2708-rpi-b-plus.dtb    fixup.dat         start_cd.elf
+	bcm2708-rpi-cm.dtb        fixup_db.dat      start_db.elf
+	  ......
+	$ 
+	
+	$
+
+	
 
   
   
