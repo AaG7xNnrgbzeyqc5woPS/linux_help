@@ -1,13 +1,13 @@
-see:
-  [镜像]镜像操作losetup
-  https://www.cnblogs.com/aaronLinux/p/7503359.html
-  深度好文,可以在镜像上安装文件系统,  chroot
+# see:
+  	[镜像]镜像操作losetup  
+  	https://www.cnblogs.com/aaronLinux/p/7503359.html  
+  	深度好文,可以在镜像上安装文件系统,  chroot
   
-  通过kpartx方式挂载raw格式镜像
-  https://blog.csdn.net/cnyyx/article/details/27182833
+  	通过kpartx方式挂载raw格式镜像
+  	https://blog.csdn.net/cnyyx/article/details/27182833
   
-  注意:
-   我的理解, raw方式的镜像, 就是直接使用dd命令生成的镜像.
+  	注意:
+   	我的理解, raw方式的镜像, 就是直接使用dd命令生成的镜像.
    
    
    
@@ -69,7 +69,51 @@ see:
 	  ......
 	$ 
 	
+	$ls /mnt/img2
+	bin  boot  common.sh  dev  etc  home  lib  lost+found  media  mnt  opt  proc  README  root  run  sbin  srv  sys  tmp  		usr  var
+	$ 
+	#  mount /mnt/img1, /mnt/img2 oK
+	
+	$sudo find . -name "whitecoind"
+	./usr/local/bin/whitecoind
+	
+	$ ls -lh ./usr/local/bin/whitecoind
+	-rwxr-xr-x 1 john john 2.6M Jun 12  2018 ./usr/local/bin/whitecoind
+	
+	#卸载 镜像文件
+	cd ~
+	$sudo umount /mnt/img2 /mnt/img1
 	$
+	
+	#查看镜像分区
+	ls /dev/mapper
+	control  loop0p1  loop0p2
+	
+	#卸载镜像分区
+	$ sudo kparkx -d /dev/loop0
+	sudo: kparkx: command not found
+	$ sudo kpartx -d /dev/loop0
+	
+	#查看 循环设备
+	$ sudo losetup -a
+	/dev/loop0: [2049]:1326070 (/home/john/mount_img/oz_mount.img)
+	$ ls /mnt/mapper
+	ls: cannot access '/mnt/mapper': No such file or directory
+	$ ls /dev/mapper
+	control
+	
+	#卸载循环设备
+	$ sudo losetup -d /dev/loop0
+	
+	#查看循环设备卸载情况
+	$ sudo losetup -a
+
+	
+
+	
+	
+	
+
 
 	
 
