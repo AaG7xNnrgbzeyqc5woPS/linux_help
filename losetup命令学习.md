@@ -57,3 +57,43 @@
         umount /mnt/iso  
     5.  卸载循环设备 
         losetup -d /dev/loopx  
+        
+   --------------------------------
+   练习二:
+   ------------------------------
+    重点方法 : 
+    $sudo losetup --show /dev/loop0  oz_mount.img 
+    /dev/loop0
+    
+    $ clear
+    $ sudo losetup -f 
+    /dev/loop0
+    $ sudo losetup -v /dev/loop0 oz_mount.img 
+    $ sudo losetup -d /dev/loop0
+    $ sudo losetup --show /dev/loop0 oz_mount.img 
+    /dev/loop0
+    
+    
+    $ sudo losetup -a
+    /dev/loop0: [2049]:1326070 (/home/john/mount_img/oz_mount.img)
+    $ sudo losetup /dev/loop0
+    /dev/loop0: [2049]:1326070 (/home/john/mount_img/oz_mount.img)
+    $ sudo losetup oz_mount.img 
+    losetup: oz_mount.img: failed to use device: No such device
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
