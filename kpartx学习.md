@@ -18,6 +18,25 @@ Usage:
 	-s sync mode (Default). Don't return until the partitions are created
   
   ----------------------------------------
+  # 练习一:
+  ----------------------------------
+  
+  	losetup -a
+	/dev/loop0: []: (/home/john/mount_img/oz_mount.img)
+		
+	$ sudo kpartx -va /dev/loop0  /映射分区
+	[sudo] password for john: 
+	add map loop0p1 (254:0): 0 88262 linear 7:0 8192
+	add map loop0p2 (254:1): 0 7639040 linear 7:0 98304
+	
+	$ ls /dev/mapper  查看映射分区
+	control  loop0p1  loop0p2
+	
+	$ 格式化分区
+	
+	sudo mkfs.vfat /dev/mapper/loop0p1
+	sudo mkfs.ext4 /dev/mapper/loop0p2
+
   
   
   
