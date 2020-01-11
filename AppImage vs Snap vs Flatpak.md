@@ -1,5 +1,6 @@
 # AppImage vs Snap vs Flatpak
-[Linux Package Managers Compared – AppImage vs Snap vs Flatpak](https://www.ostechnix.com/linux-package-managers-compared-appimage-vs-snap-vs-flatpak/,  AppImage vs Snap vs Flatpak)  
+
+[Linux Package Managers Compared – AppImage vs Snap vs Flatpak](https://www.ostechnix.com/linux-package-managers-compared-appimage-vs-snap-vs-flatpak)  
 [what-are-the-differences-between-snaps-appimage-flatpak-and-others ][2] 
 <https://medium.com/nitrux/cross-distro-linux-applications-1169c3077136> 
 
