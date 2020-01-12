@@ -7,10 +7,11 @@ ldd file
 ldd file1 file2  
 
 
-2. [linux下查找bin依赖的动态库之readelf使用](https://blog.csdn.net/csdn66_2016/article/details/78064208)
+2. [linux下查找bin依赖的动态库之readelf使用](https://blog.csdn.net/csdn66_2016/article/details/78064208)  
 **readelf -d /bin/ls**  
 
 ----------------------------------------------------------------------------
+```
 ldd zsh
 	linux-vdso.so.1 (0x00007ffecd9d7000)
 	libcap.so.2 => /usr/lib/libcap.so.2 (0x00007fcf5b4f4000)
@@ -42,7 +43,7 @@ zstdmt:
 	libpthread.so.0 => /usr/lib/libpthread.so.0 (0x00007fa0c7394000)
 	libc.so.6 => /usr/lib/libc.so.6 (0x00007fa0c71cd000)
 	/lib64/ld-linux-x86-64.so.2 => /usr/lib64/ld-linux-x86-64.so.2 (0x00007fa0c751e000)
-
+```
 
 
 
