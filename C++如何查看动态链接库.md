@@ -1,10 +1,14 @@
 see:
-[用ldd查看C++程序的依赖库](https://blog.csdn.net/csfreebird/article/details/9200469)
+1. [用ldd查看C++程序的依赖库](https://blog.csdn.net/csfreebird/article/details/9200469)
 
-ldd --help
-ldd -v file
-ldd file
-ldd file1 file2 
+ldd --help  
+ldd -v file  
+ldd file  
+ldd file1 file2  
+
+
+2. [linux下查找bin依赖的动态库之readelf使用](https://blog.csdn.net/csdn66_2016/article/details/78064208)
+**readelf -d /bin/ls**  
 
 ----------------------------------------------------------------------------
 ldd zsh
