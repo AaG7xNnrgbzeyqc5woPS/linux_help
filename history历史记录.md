@@ -5,6 +5,7 @@
 2. [How to effectively clear your bash history](https://www.techrepublic.com/article/how-to-effectively-clear-your-bash-history/)
 3. [How to clear bash history completely?](https://askubuntu.com/questions/191999/how-to-clear-bash-history-completely)
 4. [How To Clear Shell History In Ubuntu Linux](https://www.cyberciti.biz/faq/clear-the-shell-history-in-ubuntu-linux/)
+5 [How does one clear the bash history?](https://raspberrypi.stackexchange.com/questions/39033/how-does-one-clear-the-bash-history)
 
 ```
 # 历史记录命令:
