@@ -1,10 +1,10 @@
 
 
 # see:
-[linux如何查看/清空历史记录](https://jingyan.baidu.com/article/17bd8e524dc9a185aa2bb844.html)
-[How to effectively clear your bash history](https://www.techrepublic.com/article/how-to-effectively-clear-your-bash-history/)
-[How to clear bash history completely?](https://askubuntu.com/questions/191999/how-to-clear-bash-history-completely)
-[How To Clear Shell History In Ubuntu Linux](https://www.cyberciti.biz/faq/clear-the-shell-history-in-ubuntu-linux/)
+1. [linux如何查看/清空历史记录](https://jingyan.baidu.com/article/17bd8e524dc9a185aa2bb844.html)  
+2. [How to effectively clear your bash history](https://www.techrepublic.com/article/how-to-effectively-clear-your-bash-history/)
+3. [How to clear bash history completely?](https://askubuntu.com/questions/191999/how-to-clear-bash-history-completely)
+4. [How To Clear Shell History In Ubuntu Linux](https://www.cyberciti.biz/faq/clear-the-shell-history-in-ubuntu-linux/)
 
 ```
 # 历史记录命令:
@@ -29,5 +29,9 @@ echo "$HISTSIZE"
 You can add the command to your ~/.bash_logout so that history will get cleared when you logout:
 echo 'history -c' >> ~/.bash_logout
 
+
+For more info read bash command man page online or offline by typing the following command:
+man bash
+help history
 
 ```
