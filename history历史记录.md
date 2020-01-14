@@ -34,4 +34,10 @@ For more info read bash command man page online or offline by typing the followi
 man bash
 help history
 
+.bashrc 文件中
+HISTSIZE=0
+HISTFILESIZE=0
+将不再记录历史记录
+
+
 ```
