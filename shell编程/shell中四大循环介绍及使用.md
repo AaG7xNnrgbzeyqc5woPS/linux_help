@@ -1,28 +1,25 @@
 [shell中四大循环介绍及使用](https://blog.51cto.com/longlei/2347421)
 
 
-``
+```
 1、for循环结构语法及实例
 1.1、for循环结构语法1
 
 for 变量名 in 变量取值列表
-
 do
-
     指令……….
-
 done
 
 提示：此结构中“in 变量取值列表”可省略，省略时相当于in “$@”，使用for i就相当于使用for i in “$@”
 1.2、for循环结构语法2
 
 for ((exp1;exp2;exp3)); do
-
         指令…………
-
    done
 
-image.png
+![for循环结构语法2 流程图](https://s1.51cto.com/images/20190128/1548686725355810.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
+
+
 
 exp1只执行一次，相当于在for里嵌了while
 1.3、for循环结构基础实例
