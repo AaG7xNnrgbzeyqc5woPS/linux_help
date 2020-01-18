@@ -1,7 +1,6 @@
 
 
-[生成a-z 26个字母]{https://blog.csdn.net/weixin_34290390/article/details/92454029}
-
+[生成a-z 26个字母](https://my.oschina.net/guonaihong/blog/499877)
 有时候写代码会有写26个字母的需要(abcdefghijklmnopqrstuvwxyz)
 
 首先想到的方法是把键盘里的字母敲一遍，这个方式不仅繁琐，而且容易出错。
