@@ -1,9 +1,9 @@
 [shell中四大循环介绍及使用](https://blog.51cto.com/longlei/2347421)
 
 
-```
-1、for循环结构语法及实例
-1.1、for循环结构语法1
+
+# 1、for循环结构语法及实例
+## 1.1、for循环结构语法1
 
 for 变量名 in 变量取值列表
 do
@@ -11,7 +11,8 @@ do
 done
 
 提示：此结构中“in 变量取值列表”可省略，省略时相当于in “$@”，使用for i就相当于使用for i in “$@”
-1.2、for循环结构语法2
+
+## 1.2、for循环结构语法2
 
 for ((exp1;exp2;exp3)); do
         指令…………
@@ -22,8 +23,9 @@ for ((exp1;exp2;exp3)); do
 
 
 exp1只执行一次，相当于在for里嵌了while
-1.3、for循环结构基础实例
-例1：for循环直接输出元素5到1的方法
+
+## 1.3、for循环结构基础实例
+### 例1：for循环直接输出元素5到1的方法
 
 #!/bin/bash
 
@@ -34,7 +36,8 @@ for num in 5 4 3 2 1
    echo $num
 
  done
-例2：for循环使用大括号的方法输出元素5到1
+ 
+### 例2：for循环使用大括号的方法输出元素5到1
 
 #!/bin/bash
 
@@ -47,7 +50,7 @@ for num in {5..1}
  done
 
  
-例3：for循环使用seq方法实现输出元素5到1
+### 例3：for循环使用seq方法实现输出元素5到1
 
 #!/bin/bash
 
@@ -62,7 +65,7 @@ for num in `seq -s " " 5 -1 1`
  done
 
  
-例4：使用for循环进行文件批量改名，把jpg改成gif
+### 例4：使用for循环进行文件批量改名，把jpg改成gif
 
 [root@localhost test]# ls
 
@@ -75,7 +78,7 @@ for num in `seq -s " " 5 -1 1`
 1.gif  2.gif  3.gif  4.gif  5.gif
 
  
-例5：for循环在/abc目录下创建文件abc-1至abc-10
+### 例5：for循环在/abc目录下创建文件abc-1至abc-10
 
 #!/bin/bash
 
@@ -90,7 +93,7 @@ for a in {1..10}
 done
 
  
-例6：for循环批量创建10个普通用户abc-01至abc-10，密码设置为aaa-01至aaa-10
+### 例6：for循环批量创建10个普通用户abc-01至abc-10，密码设置为aaa-01至aaa-10
 
 #!/bin/bash
 
@@ -105,7 +108,7 @@ for num in `seq -w 10`   #说明：-w以0补充列宽
  done
 
  
-例7：for循环批量创建用户密码为8位随机字符串
+### 例7：for循环批量创建用户密码为8位随机字符串
 
 #先实现8位随机数的取值
 
@@ -206,4 +209,4 @@ fi
 
 分析：sum初始值为0，请输入一个数，先判断输入的是否含有除数字以外的字符，有就报错；没有判断是否为0，不为0进入for循环，i的范围为1~输入的数，每次的循环为sum=sum+i，循环结束，最后输出sum的值。
 
-```
+
