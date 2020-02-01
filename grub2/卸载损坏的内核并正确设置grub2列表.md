@@ -96,14 +96,14 @@
    3. 配置文件生成:  
     grub2-mkconfig -o /boot/grub2/grub.cfg   //根据内核文件,自动生成grub的配置文件  
     
-   4. 缺省配置选项
-        4.1.  配置文件: /etc/default/grub
-        4.2. 关键选项: GRUB_DEFAULT=  确定缺省启动项,取值可以是 {saved, 0,1,2,...}
-        4.3.  如果是数字,那么数字就是启动项序号,从0开始
-        4.4. 如果是 saved, 需要再用下面的命令设置:
-             grub2-set-default 0      //设置内核菜单缺省为0,
-        4.5. 如果是 saved, 设置好用 这个命令检查: 
-             grub2-editenv list    
+   4. 缺省配置选项  
+        4.1.  配置文件: /etc/default/grub  
+        4.2. 关键选项: GRUB_DEFAULT=  确定缺省启动项,取值可以是 {saved, 0,1,2,...}  
+        4.3.  如果是数字,那么数字就是启动项序号,从0开始  
+        4.4. 如果是 saved, 需要再用下面的命令设置:  
+             grub2-set-default 0      //设置内核菜单缺省为0,  
+        4.5. 如果是 saved, 设置好用 这个命令检查:   
+             grub2-editenv list      
              
   The End!  
      
