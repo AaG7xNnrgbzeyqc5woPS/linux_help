@@ -76,6 +76,15 @@ https://wiki.archlinux.org/index.php/Systemd-timesyncd
 over
 完毕！
 
+2020-6-18补充：
+三 系统自带客户端 Systemd-timesyncd
+
+timedatectl set-ntp yes #启动
+timedatectl set-ntp no  #关闭
+timedatectl status      #查看
+systemctl status | grep Systemd-timesyncd  #查看
+
+
 
 
 
