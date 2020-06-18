@@ -84,6 +84,9 @@ timedatectl set-ntp no  #关闭
 timedatectl status      #查看
 systemctl status | grep Systemd-timesyncd  #查看
 
+timedatectl timesync-status
+timedatectl show-timesync
+
 
 
 
