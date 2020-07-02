@@ -20,7 +20,8 @@ username=$1
 user_ssh_dir="/home/${username}/.ssh/"
 # Adduser username
 useradd -m --shell /bin/bash ${username}  #create user 'username' and his home dir and 'username' group ,not password
-usermod -aG sudo ${username}
+#usermod -aG sudo ${username} #Must create sudo group
+usermod -a -G wheel ${username} #wheel group already exist
 
 #cp authorized_keys to /home/john/.ssh
 mkdir ${user_ssh_dir}
