@@ -5,7 +5,7 @@
 # param:
 # $1 = username
 # usage:
-#   wget https://raw.githubusercontent.com/AaG7xNnrgbzeyqc5woPS/linux_help/CentOS_8/master/create_user_centos.sh
+#   wget https://raw.githubusercontent.com/AaG7xNnrgbzeyqc5woPS/linux_help/master/CentOS_8/create_user_centos.sh
 #   chmod +x create_user_centos.sh
 #   ./create_user_centos.sh newuser
 #   passwd
