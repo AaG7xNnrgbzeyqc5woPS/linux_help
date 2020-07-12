@@ -1,5 +1,5 @@
 see:
- [How to install Hardware Sensors Indicator on Manjaro Linux](https://snapcraft.io/install/indicator-sensors/manjaro)
+ [How to install Hardware Sensors Indicator on Manjaro Linux](https://snapcraft.io/install/indicator-sensors/manjaro)   
  [lm_sensors](https://wiki.archlinux.org/index.php/Lm_sensors)
  
  # 1. lm_sensors
@@ -14,5 +14,7 @@ see:
     
     sensors
     
+ # 2.    Install Psensor in Linux
+ https://www.2daygeek.com/view-check-cpu-hard-disk-temperature-linux/
  
 
