@@ -20,3 +20,16 @@ memtest86++
 System Stability Tester
 BONNIE＋＋/HPL_TEST(不是专门的压力测试软件）
 ```
+# 2. linux 测试日志
+## 2.1. stress-ng 测试日志
+    https://blog.csdn.net/T146lLa128XX0x/article/details/101441122
+    https://snapcraft.io/stress-ng
+    https://kernel.ubuntu.com/~cking/stress-ng/   
+    https://wiki.ubuntu.com/Kernel/Reference/stress-ng
+    
+    
+### 2.1.1 install stress-ng
+    sudo snap install stress-ng
+    
+    
+    
