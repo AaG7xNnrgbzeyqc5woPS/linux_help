@@ -22,11 +22,13 @@ BONNIE＋＋/HPL_TEST(不是专门的压力测试软件）
 ```
 # 2. linux 测试日志
 ## 2.1. stress-ng 测试日志
-[压力测试神器stress-ng](https://blog.csdn.net/T146lLa128XX0x/article/details/101441122)
-[stress-ng Install](https://snapcraft.io/stress-ng)
+
+### 2.1.0 see:
+[压力测试神器stress-ng](https://blog.csdn.net/T146lLa128XX0x/article/details/101441122)  
+[stress-ng Install](https://snapcraft.io/stress-ng)  
 [stress-ng info ](https://kernel.ubuntu.com/~cking/stress-ng/)   
-[Quick Start Reference Guide](https://wiki.ubuntu.com/Kernel/Reference/stress-ng)
-[stress-ng manual](https://kernel.ubuntu.com/~cking/stress-ng/stress-ng.pdf)
+[Quick Start Reference Guide](https://wiki.ubuntu.com/Kernel/Reference/stress-ng)  
+[stress-ng manual](https://kernel.ubuntu.com/~cking/stress-ng/stress-ng.pdf)  
     
     
 ### 2.1.1 install stress-ng
