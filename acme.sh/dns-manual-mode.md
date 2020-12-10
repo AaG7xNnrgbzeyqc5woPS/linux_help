@@ -1,17 +1,18 @@
-
+# letsencrypt 免费证书申请
 
 ** 使用acme.sh 手工模式申请 免费域名证书 **
 
-see:
-https://github.com/acmesh-official/acme.sh
-https://github.com/acmesh-official/acme.sh/wiki/dns-manual-mode
-https://crt.sh/?q=kvasar.top
+# see:
+https://github.com/acmesh-official/acme.sh  
+https://github.com/acmesh-official/acme.sh/wiki/dns-manual-mode  
+https://crt.sh/?q=kvasar.top   
+https://letsencrypt.org/zh-cn/  
 
-域名:
-w1.kvasar.top
+# 域名: w1.kvasar.top
 
+
+# 申请步骤：
 ```
-步骤：
 1.
 acme.sh --issue -d w1.kvasar.top --dns \
  --yes-I-know-dns-manual-mode-enough-go-ahead-please
@@ -60,3 +61,4 @@ crt.sh ID 	 Logged At  ⇧ 	Not Before 	Not After 	Common Name 	Matching Identit
 7. ok!
 
  ```
+# 证书申请成功！ 测试通过！
