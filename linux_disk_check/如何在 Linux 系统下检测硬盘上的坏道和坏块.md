@@ -1,6 +1,8 @@
-
+原文:
  [如何在 Linux 系统下检测硬盘上的坏道和坏块](https://www.linuxprobe.com/check-linux-disk.html)
+ [如何在 Linux 系统下检测硬盘上的坏道和坏块](https://linux.cn/article-7961-1.html)
  
+ # badblocks 命令
  lsblk
  ls /dev/sdc
  sudo fdisk -l
@@ -22,7 +24,7 @@ $ sudo e2fsck -l badsectors.txt /dev/sda10
 $ sudo fsck -l badsectors.txt /dev/sda10
 
 
-在 Linux 上使用 Smartmontools 工具扫描坏道
+# 在 Linux 上使用 Smartmontools 工具扫描坏道
 
 这个方法对带有 S.M.A.R.T（自我监控分析报告技术）系统的现代磁盘（ATA/SATA 和 SCSI/SAS 硬盘以及固态硬盘）更加的可靠和高效。S.M.A.R.T 系统能够帮助检测，报告，以及可能记录它们的健康状况，这样你就可以找出任何可能出现的硬件失效。
 你可以使用以下命令安装smartmontools：
