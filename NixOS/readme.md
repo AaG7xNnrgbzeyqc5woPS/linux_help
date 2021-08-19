@@ -44,11 +44,11 @@ Nix ensures that installing or upgrading one package cannot break other packages
  **最看中NixOS的可靠性，以及简单的可重现式部署**。
  
  
- # 3. 在virtual box中安装 NixOS
-    在虚拟机virtual box中有两种方式安装 NixOS,一种是用 虚拟机的 OVA format文件直接恢复虚拟机，这是最简单的方法，用于掠过安装过程，快速体验NixOS的使用
-    还有一种就是ISO image文件，象安装物理机一样安装，侧重对物理机的安装过程的模拟和学习
+# 3. 在virtual box中安装 NixOS
+在虚拟机virtual box中有两种方式安装 NixOS,一种是用 虚拟机的 OVA format文件直接恢复虚拟机，这是最简单的方法，用于掠过安装过程，快速体验NixOS的使用   
+还有一种就是ISO image文件，象安装物理机一样安装，侧重对物理机的安装过程的模拟和学习
     
- ## 3.1. 使用 OVA format文件
+## 3.1. 使用 OVA format文件
     - [guid](https://nixos.org/download.html#nixos-virtualbox)
     - This is a demo appliance for VirtualBox (in OVA format). 
     - VirtualBox image includes the Plasma Desktop (was KDE) as well as the VirtualBox guest additions.
@@ -68,7 +68,7 @@ Nix ensures that installing or upgrading one package cannot break other packages
     
    
 ## 3.2 CD images install
-  安装过程比较复杂，需要多次尝试。  
+  安装过程比较复杂，需要多次尝试。    
   第一次尝试，配置好后，在安装过程中，硬盘空间不够，安装失败，因为安装的时候需要编译。另外，网络不通，需要更改软件源到国内，直接下载cache，减少编译工作量，加快安装速度。  
 
 ### 3.2.1 分区parted知识:
