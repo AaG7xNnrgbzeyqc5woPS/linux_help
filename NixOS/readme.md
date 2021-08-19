@@ -40,7 +40,7 @@ Nix ensures that installing or upgrading one package cannot break other packages
 
 ## 2.5 总结：
  NixOS 是一个GNU/linux发布版本，该项目专注系统配置研发，是一个试验项目，但是当前已经可以使用，缺省已经带有桌面系统。目前安装还需要手工处理，所以不建议linux新手使用。
- NixOS 拥有一个80000个包的包管理系统Nixpkgs。The Nix Packages collection (Nixpkgs) is a set of over 80 000 packages for the Nix package manager. 
+ NixOS 拥有一个80000个包的包管理系统Nixpkgs。The Nix Packages collection (Nixpkgs) is a set of over 80 000 packages for the Nix package manager.   
  **最看中NixOS的可靠性，以及简单的可重现式部署**。
  
  
@@ -49,9 +49,10 @@ Nix ensures that installing or upgrading one package cannot break other packages
     还有一种就是ISO image文件，象安装物理机一样安装，侧重对物理机的安装过程的模拟和学习
     
  ## 3.1. 使用 OVA format文件
-    [guid](https://nixos.org/download.html#nixos-virtualbox)
-    This is a demo appliance for VirtualBox (in OVA format). 
-    VirtualBox image includes the Plasma Desktop (was KDE) as well as the VirtualBox guest additions.
+    - [guid](https://nixos.org/download.html#nixos-virtualbox)
+    - This is a demo appliance for VirtualBox (in OVA format). 
+    - VirtualBox image includes the Plasma Desktop (was KDE) as well as the VirtualBox guest additions.
+    ```
     To use it
 
     Download the OVA file using the button above.
@@ -62,19 +63,22 @@ Nix ensures that installing or upgrading one package cannot break other packages
     You can then start the virtual machine.
     You can log in as user demo, password demo.
     To obtain a root shell, run sudo -i in the terminal (konsole).
+    ```
+    安装过程非常顺利，验证能够登录系统，已经带有 VirtualBox guest additions，所以能同主系统(host)互动，特别是屏幕能够缩放，这样才能方便使用  
     
-    安装过程非常顺利，验证能够登录系统，已经带有 VirtualBox guest additions，所以能同主系统(host)互动，特别是屏幕能够缩放，这样才能方便使用
    
 ## 3.2 CD images install
-  安装过程比较复杂，需要多次尝试。
-  第一次尝试，配置好后，在安装过程中，硬盘空间不够，安装失败，因为安装的时候需要编译。另外，网络不通，需要更改软件源到国内，直接下载cache，减少编译工作量，加快安装速度。
+  安装过程比较复杂，需要多次尝试。  
+  第一次尝试，配置好后，在安装过程中，硬盘空间不够，安装失败，因为安装的时候需要编译。另外，网络不通，需要更改软件源到国内，直接下载cache，减少编译工作量，加快安装速度。  
 
 ### 3.2.1 分区parted知识:
-  分区可以先分区硬盘后面的空间，这样就可以更好的控制分区的次序，安排不同的分区内容。帮助文件介绍的方法，学到了
+  分区可以先分区硬盘后面的空间，这样就可以更好的控制分区的次序，安排不同的分区内容。帮助文件介绍的方法，学到了!
+  ```
   /dev/sda1  根分区    位置在硬盘的中间
   /dev/sda2  swap分区  在硬盘的最后
   /dev/sda3  boot分区  在硬盘的开始扇区
-  我习惯使用Fdisk分区，parted是命令行分区，难度大一些，更适合脚本使用
+  ```
+  我习惯使用Fdisk分区，parted是命令行分区，难度大一些，更适合脚本使用  
    
  
  
