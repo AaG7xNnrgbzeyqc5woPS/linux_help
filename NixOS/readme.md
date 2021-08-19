@@ -50,7 +50,7 @@ Nix ensures that installing or upgrading one package cannot break other packages
     
 ## 3.1. 使用 OVA format文件
 
-- [guid](https://nixos.org/download.html#nixos-virtualbox)
+- [官方教程- nixos-virtualbox install official guaid](https://nixos.org/download.html#nixos-virtualbox)
 - This is a demo appliance for VirtualBox (in OVA format). 
 - VirtualBox image includes the Plasma Desktop (was KDE) as well as the VirtualBox guest additions.
 
