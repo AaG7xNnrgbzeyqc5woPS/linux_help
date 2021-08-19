@@ -49,10 +49,12 @@ Nix ensures that installing or upgrading one package cannot break other packages
 还有一种就是ISO image文件，象安装物理机一样安装，侧重对物理机的安装过程的模拟和学习
     
 ## 3.1. 使用 OVA format文件
-    - [guid](https://nixos.org/download.html#nixos-virtualbox)
-    - This is a demo appliance for VirtualBox (in OVA format). 
-    - VirtualBox image includes the Plasma Desktop (was KDE) as well as the VirtualBox guest additions.
-    ```
+
+- [guid](https://nixos.org/download.html#nixos-virtualbox)
+- This is a demo appliance for VirtualBox (in OVA format). 
+- VirtualBox image includes the Plasma Desktop (was KDE) as well as the VirtualBox guest additions.
+
+```
     To use it
 
     Download the OVA file using the button above.
@@ -63,8 +65,9 @@ Nix ensures that installing or upgrading one package cannot break other packages
     You can then start the virtual machine.
     You can log in as user demo, password demo.
     To obtain a root shell, run sudo -i in the terminal (konsole).
-    ```
-    安装过程非常顺利，验证能够登录系统，已经带有 VirtualBox guest additions，所以能同主系统(host)互动，特别是屏幕能够缩放，这样才能方便使用  
+```
+
+安装过程非常顺利，验证能够登录系统，已经带有 VirtualBox guest additions，所以能同主系统(host)互动，特别是屏幕能够缩放，这样才能方便使用  
     
    
 ## 3.2 CD images install
