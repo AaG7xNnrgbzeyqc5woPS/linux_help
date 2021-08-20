@@ -99,8 +99,12 @@ Nix ensures that installing or upgrading one package cannot break other packages
 ### 2.2.5 安装包 
   nix-env -iA nixpkgs.neofetch
   
-### 2.2.6 命令行查看配置文件的帮助
+### 2.2.6 命令行查看配置文件的选项
   man configuration.nix
+  
+### nixos-rebuild 
+  修改配置文件/etc/nixos/configuration.nix, 使用nixos-rebuild 重建系统的配置
+  
    
    
    
