@@ -102,8 +102,18 @@ Nix ensures that installing or upgrading one package cannot break other packages
 ### 2.2.6 命令行查看配置文件的选项
   man configuration.nix
   
-### nixos-rebuild 
-  修改配置文件/etc/nixos/configuration.nix, 使用nixos-rebuild 重建系统的配置
+### 2.2.7 nixos-rebuild 
+  - 修改配置文件/etc/nixos/configuration.nix, 使用nixos-rebuild 重建系统的配置
+  - 这个在命令在新的系统下，修改自身的配置用。不是使用 live CD 安装的时候用。
+  - live CD 安装新系统，修改新系统的配置后，使用 nixos-install 命令更新配置
+
+### 2.2.8 GPT 硬盘的启动
+  - 安装好配置后，发生一些问题，新的GPT硬盘无法引导
+  - 第一个办法：简化配置，用手册中的最简单例子
+  - 最后想到是在virtual box中，需要UEFI systems的支持，硬件引导相应的GPT分区
+  - 修改virutal box/set up/system/mother board/enabled EFI ,checked it
+  - GPT启动Ok!
+  
   
    
    
