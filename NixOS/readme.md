@@ -6,6 +6,7 @@
 - [NixOS Installation Guide](https://nixos.wiki/wiki/NixOS_Installation_Guide#Making_the_installation_media)
 - [NixOS Learn](https://nixos.org/learn.html)
 - [Nix 镜像使用帮助-TUNA](https://mirrors.tuna.tsinghua.edu.cn/help/nix/)
+- [Nix os初体验（视频）](https://www.bilibili.com/video/BV1kt411v7fZ/)
 
 
 # 1. 前言
