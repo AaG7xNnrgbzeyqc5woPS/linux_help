@@ -85,6 +85,9 @@ Nix ensures that installing or upgrading one package cannot break other packages
   /dev/sda3  boot分区  在硬盘的开始扇区
   ```
   我习惯使用Fdisk分区，parted是命令行分区，难度大一些，更适合脚本使用  
+  
+### 3.2.2 修改分辨率
+   启动盘启动后设置屏幕分辨率： application/settings/display, 1920×1440(4:3),这样可以满屏，好操作多了
    
  
  
