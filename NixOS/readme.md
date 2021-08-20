@@ -87,8 +87,11 @@ Nix ensures that installing or upgrading one package cannot break other packages
   我习惯使用Fdisk分区，parted是命令行分区，难度大一些，更适合脚本使用  
   
 ### 3.2.2 修改分辨率
- - 启动盘启动后设置屏幕分辨率： application/settings/display, 1920×1440(4:3),这样可以满屏，好操作多了
+ - 启动盘（live cd）启动后设置屏幕分辨率： application/settings/display, 1920×1440(4:3),这样可以满屏，好操作多了
  - 最后发现最好的分辨率是：1580×1050，虽然两边还有空边。暂时可以用，也不会查host的分辨率，所以我屏幕的分辨率还不知道
+
+### 3.2.3 nixos manual
+ - 命令：nixos-help 启动本地的帮助系统，浏览器浏览
    
    
  
