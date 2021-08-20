@@ -7,6 +7,7 @@
 - [NixOS Learn](https://nixos.org/learn.html)
 - [Nix 镜像使用帮助-TUNA](https://mirrors.tuna.tsinghua.edu.cn/help/nix/)
 - [Nix os初体验（视频）](https://www.bilibili.com/video/BV1kt411v7fZ/)
+- [独立发行版NixOS简单体验](https://www.bilibili.com/video/BV1nf4y1b7H7/?spm_id_from=333.788.recommend_more_video.2)
 
 
 # 1. 前言
