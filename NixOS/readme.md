@@ -92,6 +92,10 @@ Nix ensures that installing or upgrading one package cannot break other packages
 
 ### 3.2.3 nixos manual
  - 命令：nixos-help 启动本地的帮助系统，浏览器浏览
+
+### 2.2.4 sudo -i 
+     切换到 root用户
+   
    
    
  
