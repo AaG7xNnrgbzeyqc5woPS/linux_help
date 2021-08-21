@@ -103,7 +103,7 @@ Nix ensures that installing or upgrading one package cannot break other packages
   man configuration.nix
   
 ### 2.2.7 nixos-rebuild 
-  - 修改配置文件/etc/nixos/configuration.nix, 使用nixos-rebuild 重建系统的配置
+  - 修改配置文件/etc/nixos/configuration.nix, 使用 nixos-rebuild 重建系统的配置
   - 这个在命令在新的系统下，修改自身的配置用。不是使用 live CD 安装的时候用。
   - live CD 安装新系统，修改新系统的配置后，使用 nixos-install 命令更新配置
 
@@ -118,10 +118,20 @@ Nix ensures that installing or upgrading one package cannot break other packages
   - 实践 修改配置，nixos-rebuild switch, 在 grub 启动菜单能看到新增的条目。改一次就加一条，有点频繁啊，太可靠了吧 :)
 
 ### 2.2.10 upgrade
-   替换 NixOS channel 命令如下（以 root 执行，将 20.05 替换为系统版本）：
+   
 ```
+ # 替换 NixOS channel 命令如下（以 root 执行，将 20.05 替换为系统版本）：
  nix-channel --add https://mirrors.tuna.tsinghua.edu.cn/nix-channels/nixos-20.05 nixos
  nix-channel --update
+ 
+ # 需要升级的时候，使用下面的命令：
+ nixos-rebuild switch --upgrade
+ 
+ # 查看 当前系统的版本使用下面的命令
+ neofetch
+ 
+ # 搜索包文件
+ nix search neofix
 ```
    
    
