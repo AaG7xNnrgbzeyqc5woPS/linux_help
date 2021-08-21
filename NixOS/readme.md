@@ -110,12 +110,19 @@ Nix ensures that installing or upgrading one package cannot break other packages
 ### 2.2.8 GPT 硬盘的启动
   - 安装好配置后，发生一些问题，新的GPT硬盘无法引导
   - 第一个办法：简化配置，用手册中的最简单例子
-  - 最后想到是在virtual box中，需要UEFI systems的支持，硬件引导相应的GPT分区
-  - 修改virutal box/set up/system/mother board/enabled EFI ,checked it
+  - ❤️最后想到是在virtual box中，需要UEFI systems的支持，硬件引导相应的GPT分区
+  - ❤️修改: virutal box/set up/system/mother board/enabled EFI ,checked it
   - GPT启动Ok!
   
-  
-   
+### 2.2.9 nixos-rebuild
+  - 实践 修改配置，nixos-rebuild switch, 在 grub 启动菜单能看到新增的条目。改一次就加一条，有点频繁啊，太可靠了吧 :)
+
+### 2.2.10 upgrade
+   替换 NixOS channel 命令如下（以 root 执行，将 20.05 替换为系统版本）：
+```
+ nix-channel --add https://mirrors.tuna.tsinghua.edu.cn/nix-channels/nixos-20.05 nixos
+ nix-channel --update
+```
    
    
  
