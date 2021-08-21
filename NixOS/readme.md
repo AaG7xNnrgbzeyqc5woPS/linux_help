@@ -93,31 +93,31 @@ Nix ensures that installing or upgrading one package cannot break other packages
 ### 3.2.3 nixos manual
  - 命令：nixos-help 启动本地的帮助系统，浏览器浏览
 
-### 2.2.4 sudo -i 
+### 3.2.4 sudo -i 
      切换到 root用户
      
-### 2.2.5 安装包 
+### 3.2.5 安装包 
   nix-env -iA nixpkgs.neofetch
   
-### 2.2.6 命令行查看配置文件的选项
+### 3.2.6 命令行查看配置文件的选项
   man configuration.nix
   
-### 2.2.7 nixos-rebuild 
+### 3.2.7 nixos-rebuild 
   - 修改配置文件/etc/nixos/configuration.nix, 使用 nixos-rebuild 重建系统的配置
   - 这个在命令在新的系统下，修改自身的配置用。不是使用 live CD 安装的时候用。
   - live CD 安装新系统，修改新系统的配置后，使用 nixos-install 命令更新配置
 
-### 2.2.8 GPT 硬盘的启动
+### 3.2.8 GPT 硬盘的启动
   - 安装好配置后，发生一些问题，新的GPT硬盘无法引导
   - 第一个办法：简化配置，用手册中的最简单例子
   - ❤️最后想到是在virtual box中，需要UEFI systems的支持，硬件引导相应的GPT分区
   - ❤️修改: virutal box/set up/system/mother board/enabled EFI ,checked it
   - GPT启动Ok!
   
-### 2.2.9 nixos-rebuild
+### 3.2.9 nixos-rebuild
   - 实践 修改配置，nixos-rebuild switch, 在 grub 启动菜单能看到新增的条目。改一次就加一条，有点频繁啊，太可靠了吧 :)
 
-### 2.2.10 upgrade
+### 3.2.10 upgrade
    
 ```
  # 替换 NixOS channel 命令如下（以 root 执行，将 20.05 替换为系统版本）：
@@ -133,6 +133,12 @@ Nix ensures that installing or upgrading one package cannot break other packages
  # 搜索包文件
  nix search neofix
 ```
+
+### 3.3 总结
+  - 在 virtual box中使用两种方式安装了 nixos，并做简单的尝试。
+  - 下一步就是要好好学习nixos相关的知识，把nixos用好，用熟悉，发挥出价值。  
+  - 再进一步在物理机上安装使用，还可以在服务器上也使用，发挥最大价值！
+
    
    
  
