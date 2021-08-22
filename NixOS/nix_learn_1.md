@@ -26,4 +26,25 @@ ls -lt
 # pwd
 # whoami
 ```  
-## 1.4 
+## 1.4 进入环境启动应用
+```
+[demo@nixos:~]$ nix-shell default.nix
+[nix-shell:~]$ python3 myapp.py
+
+```
+浏览器中输入: http://127.0.0.1：5000
+可以看到浏览器有输出：Hello, Nix!
+❤️成功！
+
+## 1.5 总结：
+- 虽然不明白几个文件的内容，照着教程做就可以，文件内容直接拷贝进去就行
+- ❤️关键三个文件和执行命令nix-build在同一个目录下
+- 执行中出现 WARNING错误不要理会，免得浪费时间
+- 使用以几个命令：
+```
+ls -l /nix/store | grep myapp
+ls -lt
+pwd
+whoami
+```
+ 
