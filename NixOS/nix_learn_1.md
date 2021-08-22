@@ -40,6 +40,7 @@ ls -lt
 - 虽然不明白几个文件的内容，照着教程做就可以，文件内容直接拷贝进去就行
 - ❤️关键三个文件和执行命令nix-build在同一个目录下
 - 执行中出现 WARNING错误不要理会，免得浪费时间
+- 使用官方 nixos的ova文件（nixos-21.05.2518.97c5d0cbe76-x86_64-linux.ova）建立virtual box虚拟机,方便！
 - 使用以几个命令：
 ```
 ls -l /nix/store | grep myapp
