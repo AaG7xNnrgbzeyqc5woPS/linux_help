@@ -15,7 +15,8 @@
 
 ## 1.3 查看生成的文件和链接
 -  查看 建立的文件： 大概这样，/nix/store/6i4l781jwk5vbia8as32637207kgkllj-myapp-0.1
--  查看链接 ： result
+-  查看链接 ： ./result
+-  
 ```
 #使用下面的命令可能更方便
 ls -l /nix/store | grep myapp
@@ -28,13 +29,19 @@ ls -lt
 ```  
 ## 1.4 进入环境启动应用
 ```
-[demo@nixos:~]$ nix-shell default.nix
-[nix-shell:~]$ python3 myapp.py
+[demo@nixos:~]$ nix-shell default.nix   
+[nix-shell:~]$ python3 myapp.py  
 
 ```
-浏览器中输入: http://127.0.0.1：5000
-可以看到浏览器有输出：Hello, Nix!
-❤️成功！
+- 浏览器中输入: http://127.0.0.1：5000   
+- 可以看到浏览器有输出：Hello, Nix!   
+- ❤️成功！   
+- CTRL+C 退出应用程序
+- 输入命令：exit
+- 退出 nix-shell环境
+- 再输入命令：./result/bin/myapp.py
+- 也可以启动 myapp程序，浏览器也能显示 Hello，Nix！
+- 可见 nix-shell能简化环境管理
 
 ## 1.5 总结：
 - 虽然不明白几个文件的内容，照着教程做就可以，文件内容直接拷贝进去就行
