@@ -99,4 +99,14 @@ Disk  does not exist
 - 在文件管理器中，双击 “VentoyGUI.x86_64” 启动 VentoyGUI，输入管理员密码获取root权限
 - 后面就很简单，两次确认后，USB格式化，安装Ventoy
 - 在文件管理器里面可以看到 USB安装成功，磁盘标签是 Ventoy，U盘已经为空
-- 
+- 使用 ctrl+h 查看隐藏文件，也没有。全空！
+
+```
+[john@john-tm1613 ventoy-1.0.52]$ lsblk -f | grep sdb
+sdb                                                                                    
+├─sdb1      exfat    1.0   Ventoy  0620-B891                              14.3G     0% /run/media/john/Ventoy
+└─sdb2      vfat     FAT16 VTOYEFI 4504-3DEB                                           
+[john@john-tm1613 ventoy-1.0.52]$ 
+
+```
+- ❤️Good Job！
