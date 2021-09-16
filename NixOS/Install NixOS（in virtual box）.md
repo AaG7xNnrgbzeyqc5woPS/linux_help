@@ -11,18 +11,18 @@
 
 
 # 1. 前言
-  原先在使用manjaro，相当的不错，但是有两个烦恼：
-  首先是系统会升级崩溃，或者系统的一致性被破坏，升级被卡住。大概半年到一年就发生一次，需要重装系统，复杂的配置。无法保证绝对的稳定，不能满足我的需要。
-  第二，系统用着用着，会膨胀，各种软件装的太多，也不好卸载，怕崩溃。系统重装的配置复杂，都是手工操作，无法自动化，配置人工记住不，自然也无法重现。
-  这两个烦恼导致我一直在寻找新的，好用的发布版本。无意中看到 NixOS，相见恨晚，以前怎么没有发现呢？！
+  - 原先在使用manjaro，相当的不错，但是有两个烦恼：   
+  - 首先是系统会升级崩溃，或者系统的一致性被破坏，升级被卡住。大概半年到一年就发生一次，需要重装系统，复杂的配置。无法保证绝对的稳定，不能满足我的需要。  
+  - 第二，系统用着用着，会膨胀，各种软件装的太多，也不好卸载，怕崩溃。系统重装的配置复杂，都是手工操作，无法自动化，配置人工记住不，自然也无法重现。  
+  - 这两个烦恼导致我一直在寻找新的，好用的发布版本。无意中看到 NixOS，相见恨晚，以前怎么没有发现呢？！  
 
 
 # 2. NixOS 简介
-   **Reproducible builds and deployments. #可重现的构造和部署**
+   **Reproducible builds and deployments. #可重现的构造和部署**   
    Nix is a tool that takes a unique approach to package management and system configuration. Learn how to make reproducible, declarative and reliable systems. 
    
 ## 2.1. Reproducible
-Nix builds packages in isolation from each other. This ensures that they are reproducible and don't have undeclared dependencies, so **if a package works on one machine, it will also work on another. **
+Nix builds packages in isolation from each other. This ensures that they are reproducible and don't have undeclared dependencies, so **if a package works on one machine, it will also work on another. **  
     
 ## 2.2. Declarative # 基于声明式的配置
   Nix makes it trivial to share development and build environments for your projects, regardless of what programming languages and tools you’re using.
