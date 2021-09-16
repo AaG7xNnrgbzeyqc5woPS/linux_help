@@ -45,5 +45,58 @@ Features
 - Most type of OS supported(Windows/WinPE/Linux/Unix/ChromeOS/Vmware/Xen...)
 - 730+ ISO files are tested (List). 90%+ distros in distrowatch.com supported (Details). 
 
-# 3.0 [Ventoy main page](https://www.ventoy.net/en/index.html)
-# 3.1 [Compatible](https://www.ventoy.net/en/compatible.html)
+- [Ventoy main page](https://www.ventoy.net/en/index.html)
+- [Compatible](https://www.ventoy.net/en/compatible.html)
+- [Ventoy Getstart](https://www.ventoy.net/en/doc_start.html)
+
+# 3.1 Install Ventoy To USB Drive
+- [Ventoy Getstart](https://www.ventoy.net/en/doc_start.html)
+- 使用
+
+```
+Ventoy2Disk.sh CMD [ OPTION ] /dev/sdX
+  CMD:
+    -i   install ventoy to sdX (fail if disk already installed with ventoy)
+    -I   force install ventoy to sdX (no matter installed or not)
+    -u   update ventoy in sdX
+    -l   list Ventoy information in sdX
+    
+  OPTION: (optional)
+   -r SIZE_MB  preserve some space at the bottom of the disk (only for install)
+   -s          enable secure boot support (default is disabled)
+   -g          use GPT partition style, default is MBR style (only for install)
+   -L          Label of the main partition (default is Ventoy)
+```
+- Ventoy2Disk.sh -l 这个指令总是失败，就不敢再试用了。使用 lsblk 可以看到 USB disk
+- 改用GUI界面程序, 
+
+```
+[john@john-tm1613 ventoy-1.0.52]$ ./Ventoy2Disk.sh -l
+
+**********************************************
+      Ventoy: 1.0.52  x86_64
+      longpanda admin@ventoy.net
+      https://www.ventoy.net
+**********************************************
+
+Disk  does not exist
+[john@john-tm1613 ventoy-1.0.52]$ sudo ./Ventoy2Disk.sh -l
+[sudo] password for john: 
+
+**********************************************
+      Ventoy: 1.0.52  x86_64
+      longpanda admin@ventoy.net
+      https://www.ventoy.net
+**********************************************
+
+Disk  does not exist
+
+```
+  
+  
+# 3.2  Install Ventoy To USB Drive by Linux GUI (GTK/QT)
+- [Ventoy Getstart](https://www.ventoy.net/en/doc_start.html)
+- 在文件管理器中，双击 “VentoyGUI.x86_64” 启动 VentoyGUI，输入管理员密码获取root权限
+- 后面就很简单，两次确认后，USB格式化，安装Ventoy
+- 在文件管理器里面可以看到 USB安装成功，磁盘标签是 Ventoy，U盘已经为空
+- 
