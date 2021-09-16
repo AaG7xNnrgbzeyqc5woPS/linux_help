@@ -1,0 +1,10 @@
+# 0. See:
+ - [NixOS main page](https://nixos.org/)
+ - [nixos manual](https://nixos.org/manual/nixos/stable/)
+ - [nixos Graphical ISO image download](https://nixos.org/download.html)
+ 
+
+
+# 1. Graphical ISO image
+
+The graphical installation ISO image contains NixOS installer as well as Desktop Environment and several applications. It’s a live CD, so it allows you to get an impression of NixOS (and the Nix package manager) without installing it.
