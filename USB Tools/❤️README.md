@@ -1,10 +1,10 @@
 - 介绍几种常用USB盘的制作工具，有的可以直接制作可以启动盘
 
 # 0. See:
- -[ balena-io/etcher ](https://github.com/balena-io/etcher)
- -[ pbatard/rufus ](https://github.com/pbatard/rufus)
- -[ ventoy/Ventoy ](https://github.com/ventoy/Ventoy)
- -[USB device boot mode](https://www.raspberrypi.org/documentation/computers/raspberry-pi.html)
+  - [ balena-io/etcher ](https://github.com/balena-io/etcher)
+  - [ pbatard/rufus ](https://github.com/pbatard/rufus)
+  - ❤️[ ventoy/Ventoy ](https://github.com/ventoy/Ventoy)
+  - [USB device boot mode](https://www.raspberrypi.org/documentation/computers/raspberry-pi.html)
  
 
 # 1. etcher
