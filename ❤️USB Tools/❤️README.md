@@ -110,3 +110,16 @@ sdb
 
 ```
 - ❤️Good Job！
+- 拷贝 几个操作系统的image文件到 Ventoy 盘上，然后用此U盘启动试试看
+```
+john@john-tm1613 john]$ ls -l Ventoy/ 
+total 13678880
+-rwxrwxrwx 1 john john 1971978240 Sep 16 09:30  nixos-gnome-21.05.3065.b3083bc6933-x86_64-linux.iso
+-rwxrwxrwx 1 john john        117 Sep 14 16:37  nixos-gnome-21.05.3065.b3083bc6933-x86_64-linux.iso.sha256
+-rwxrwxrwx 1 john john 1157627904 Jan  5  2020  ubuntu-14.04.6-desktop-amd64.iso
+-rwxrwxrwx 1 john john 1697906688 Dec 18  2020  ubuntu-16.04.7-desktop-amd64.iso
+-rwxrwxrwx 1 john john 1996488704 Mar 22  2019  ubuntu-18.04.2-desktop-amd64.iso
+-rwxrwxrwx 1 john john 2097152000 Apr 17  2019  ubuntu-19.04-desktop-amd64.iso
+-rwxrwxrwx 1 john john 5085956096 Mar 26  2019 'Win10_1809Oct_Chinese(Simplified)_x64.iso'
+[
+```
