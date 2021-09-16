@@ -36,10 +36,14 @@ Features
     Portable
     100% Free Software (GPL v3)
 
-# 3. Ventoy
+# 3. Ventoy - A New Bootable USB Solution
+
 - Ventoy is an open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files.
 - With ventoy, you don't need to format the disk over and over, you just need to copy the image files to the USB drive and boot it. - You can copy many image files at a time and ventoy will give you a boot menu to select them.
 - x86 Legacy BIOS, IA32 UEFI, x86_64 UEFI, ARM64 UEFI and MIPS64EL UEFI are supported in the same way.
 - Both MBR and GPT partition style are supported in the same way.
 - Most type of OS supported(Windows/WinPE/Linux/Unix/ChromeOS/Vmware/Xen...)
 - 730+ ISO files are tested (List). 90%+ distros in distrowatch.com supported (Details). 
+
+# 3.0 [Ventoy main page](https://www.ventoy.net/en/index.html)
+# 3.1 [Compatible](https://www.ventoy.net/en/compatible.html)
