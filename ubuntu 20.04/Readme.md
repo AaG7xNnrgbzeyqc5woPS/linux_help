@@ -3,8 +3,11 @@
 - [ubuntu download](https://ubuntu.com/download)
 
 # 1. ubuntu版本查看命令
-在命令终端输入
-1.cat /etc/issue （简单）
-2.cat /etc/lsb-release（具体）
-3.uname -a（内核）
+在命令终端输入    
+1. cat /etc/issue （简单）
+2. cat /etc/lsb-release（具体）
+3. uname -a（内核）
+
+# 2. neofetch 命令
+
 
