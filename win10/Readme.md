@@ -30,8 +30,9 @@ Win10系统占用空间最小版本推荐
   |LTSB 2015 | 3.64    | 2.69    |
   |LTSB 2016 | 3.56    | 2.62    |
   |LTSC 2019 | 4.17    | 2.98    |
+  |LTSC 2021 | 4.70    |  3.37   |
   
-  综合考虑，选择 LTSB 2019 才 4.17GB, 之所以选择大一些的，主要新版本安全性好一些。
+  综合考虑，选择 LTSB 2021 新版本安全性好一些，体积略大，但也才4.70GB。
  
 # 3. Win10 LTSC 2019 长期支持版下载
 
@@ -40,8 +41,9 @@ Windows 10 Enterprise LTSC 2019 (x64) - DVD (Chinese-Simplified) 详细信息
 SHA1：  24b59706d5eded392423936c82ba5a83596b50cc  
 文件大小： 4.17GB  
 发布时间： 2019-03-15  
+```
 ed2k://|file|cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso|4478906368|E7C526499308841A4A6D116C857DB669|/  
-
+```
 > 下载完成后务必进行SHA1校验，与本网站核对一致后再使用
 
 # 4. win10 LTSC 2021 长期支持版下载
@@ -54,7 +56,9 @@ SHA256：C117C5DDBC51F315C739F9321D4907FA50090BA7B48E7E9A2D173D49EF2F73A3
 ```
 ED2K ed2k://|file|SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO|5044211712|1555B7DCA052B5958EE68DB58A42408D|/  
 BT magnet:?xt=urn:btih:366ADAA52FB3639B17D73718DD5F9E3EE9477B40&dn=SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO&xl=5044211712  
+
 ```
+> 下载完成后务必进行SHA1校验，与本网站核对一致后再使用
   
   
   
