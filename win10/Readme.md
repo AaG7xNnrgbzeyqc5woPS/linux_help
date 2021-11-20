@@ -33,17 +33,16 @@ Win10系统占用空间最小版本推荐
   综合考虑，选择 LTSB 2019 才 4.17GB, 之所以选择大一些的，主要新版本安全性好一些。
  
 # 3. Win10 LTSC 2019 长期支持版下载
-win 10 LTSC 2019  
-Windows 10 Enterprise LTSC 2019 (x64) - DVD (Chinese-Simplified) 详细信息
-文件名
+Windows 10 Enterprise LTSC 2019 (x64) - DVD (Chinese-Simplified) 详细信息  
+文件名   
     cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso
-SHA1
-    24b59706d5eded392423936c82ba5a83596b50cc
-文件大小
-    4.17GB
-发布时间
-    2019-03-15
-ed2k://|file|cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso|4478906368|E7C526499308841A4A6D116C857DB669|/
+SHA1  
+    24b59706d5eded392423936c82ba5a83596b50cc  
+文件大小  
+    4.17GB  
+发布时间  
+    2019-03-15  
+ed2k://|file|cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso|4478906368|E7C526499308841A4A6D116C857DB669|/  
 > 下载完成后务必进行SHA1校验，与本网站核对一致后再使用
 
   
