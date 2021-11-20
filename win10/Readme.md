@@ -1,5 +1,6 @@
 # 0. See:
--[Win10哪个版本占用空间最小？](http://www.xitongzhijia.net/xtjc/20210323/206983.html)
+- [Win10哪个版本占用空间最小？](http://www.xitongzhijia.net/xtjc/20210323/206983.html)
+- [Win10 LTSC 2019 长期支持版 下载](https://www.cnblogs.com/onelikeone/p/11594802.html)
 
 # 1. win10版本
 Win10哪个版本占用空间最小？大家经常听到的Win10版本主要为四个，分别是专业版、家庭版、企业版、教育版，其实除了这四个之外，还有工作站版、LTSB/LTSC等不同的版本，在安装的时候很多人因为配置的问题可能想要占用空间最小的版本，但是不知道这些该如何选择，这里也是为大家详细的说明。
@@ -29,6 +30,24 @@ Win10系统占用空间最小版本推荐
   |LTSC 2019 | 4.17    | 2.98    |
   
   综合考虑，选择 LTSB 2019 才 4.17GB, 之所以选择大一些的，主要新版本安全性好一些。
+ 
+# 3. Win10 LTSC 2019 长期支持版下载
+win 10 LTSC 2019  
+
+Windows 10 Enterprise LTSC 2019 (x64) - DVD (Chinese-Simplified)
+
+文件名：cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso
+
+SHA1：24b59706d5eded392423936c82ba5a83596b50cc
+
+文件大小：4.17GB
+
+发布时间：2019-03-15
+
+下载地址：ed2k://|file|cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso|4478906368|E7C526499308841A4A6D116C857DB669|/
+
+
+  
   
   
   
