@@ -11,9 +11,11 @@
 所以你的问题应该改成：
   **除了迅雷，有什么软件能集成FTP、ED2k、BT（磁力链接）下载的？**
   你说了这么多其实只有 ED2k（电驴）特殊点。。。ED2k（电驴）快凉透了，现在全球也就还剩下几十万人在使用了，而且这个凉凉趋势已经是不可逆转的了。。。
-  想了想我用过的，好像 BitComet 满足你的要求，即支持常规的 HTTP/FTP 下载，又支持 BT（磁力链接）下载，还有个 ED2k（电驴）插件。
+  想了想我用过的，好像 ❤️**BitComet** 满足你的要求，即支持常规的 HTTP/FTP 下载，又支持 BT（磁力链接）下载，还有个 ED2k（电驴）**插件**。
   除此之外，应该很少有软件同时支持 ED2k（电驴）了，百度网盘、115网盘的话还能碰碰运气。
+  
   <img src="https://pic3.zhimg.com/50/v2-797bf4354312fed742077469a83dcff5_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="1065" data-rawheight="411" data-default-watermark-src="https://pic3.zhimg.com/50/v2-36c9aa2b28fdc32b04c00b98ff30fe33_720w.jpg?source=1940ef5c" class="origin_image zh-lightbox-thumb" width="1065" data-original="https://pic3.zhimg.com/v2-797bf4354312fed742077469a83dcff5_r.jpg?source=1940ef5c"/>
-  有兴趣可以试试 [BitComet](https://link.zhihu.com/?target=https%3A//www.lanzous.com/b073c7g4f)，整合了全网热门 [Tracker：XIU2/TrackersListCollection](https://link.zhihu.com/?target=https%3A//github.com/XIU2/TrackersListCollection)
+  
+  有兴趣可以试试 [BitComet](https://www.bitcomet.com/en)，整合了全网热门 [Tracker：XIU2/TrackersListCollection](https://link.zhihu.com/?target=https%3A//github.com/XIU2/TrackersListCollection)
   
   
