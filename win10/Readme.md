@@ -2,6 +2,7 @@
 - [Win10哪个版本占用空间最小？](http://www.xitongzhijia.net/xtjc/20210323/206983.html)
 - [Win10 LTSC 2019 长期支持版 下载激活](https://www.cnblogs.com/onelikeone/p/11594802.html)
 - [msdn i tell you](https://msdn.itellyou.cn/)
+- [next.itellyou.cn](https://next.itellyou.cn/Original/Index#cbp=Product?ID=f905b2d9-11e7-4ee3-8b52-407a8befe8d1)
 
 # 1. win10版本
 Win10哪个版本占用空间最小？大家经常听到的Win10版本主要为四个，分别是专业版、家庭版、企业版、教育版，其实除了这四个之外，还有工作站版、LTSB/LTSC等不同的版本，在安装的时候很多人因为配置的问题可能想要占用空间最小的版本，但是不知道这些该如何选择，这里也是为大家详细的说明。
@@ -43,6 +44,17 @@ ed2k://|file|cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso|4478906368|
 
 > 下载完成后务必进行SHA1校验，与本网站核对一致后再使用
 
+# 4. win10 LTSC 2021 长期支持版下载
+Windows 10 Enterprise LTSC 2021 (x64) - DVD (Chinese-Simplified)  
+文件：SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO  
+大小：4.7GB  
+MD5：2579B3865C0591EAD3A2B45AF3CABEEE  
+SHA1：C19D7DAFBAFEB26C36E31D97C465E87C7A6E8A4C  
+SHA256：C117C5DDBC51F315C739F9321D4907FA50090BA7B48E7E9A2D173D49EF2F73A3  
+```
+ED2K ed2k://|file|SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO|5044211712|1555B7DCA052B5958EE68DB58A42408D|/  
+BT magnet:?xt=urn:btih:366ADAA52FB3639B17D73718DD5F9E3EE9477B40&dn=SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO&xl=5044211712  
+```
   
   
   
