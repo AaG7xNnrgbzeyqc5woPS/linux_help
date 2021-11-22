@@ -37,10 +37,10 @@ Win10系统占用空间最小版本推荐
 # 3. Win10 LTSC 2019 长期支持版下载
 
 Windows 10 Enterprise LTSC 2019 (x64) - DVD (Chinese-Simplified) 详细信息  
-文件名： cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso
+文件名： cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso   
 SHA1：  24b59706d5eded392423936c82ba5a83596b50cc  
-文件大小： 4.17GB  
-发布时间： 2019-03-15  
+文件大小： 4.17GB   
+发布时间： 2019-03-15   
 ```
 ed2k://|file|cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso|4478906368|E7C526499308841A4A6D116C857DB669|/  
 ```
