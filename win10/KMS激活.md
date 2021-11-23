@@ -12,6 +12,10 @@
 - [基于路由openwrt固件激活WINDOWS+OFFICE的步骤](https://www.vjsun.com/629.html)
 - [Windows 10 LTSC 2019 KMS激活](http://demon.tw/operating-system/windows-10-ltsc-2019-kms.html)
 
+# GVLK
+  - Windows 10 Enterprise LTSC 2019 	M7XTQ-FN8P6-TTKYV-9D4CC-J462D
+  - 
+
 
 # 1. kms服务器测试
 ```
