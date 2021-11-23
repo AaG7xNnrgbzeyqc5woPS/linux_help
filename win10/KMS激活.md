@@ -85,6 +85,9 @@ bug:
 
 # 4.  实验二：
  更换密钥：slmgr /ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D
+ 
  再次激活：slmgr.vbs -ato
+ 
  返回的信息显示激活，但是桌面右下角依然还有提示，测试模式
+ 
 
