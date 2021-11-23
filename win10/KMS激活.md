@@ -37,3 +37,25 @@
 输入 slmgr /ato 查看激活状态，如果显示 “成功地激活了产品”，表示激活成功，
 每隔 180 天会自动续订，不需要担心激活过期。
 ```
+
+# 3. OFFICE激活：
+
+第一步、找到你的OFFICE目录
+
+我的是OFFICE 2016 32位版，目录为：
+
+C:\Program Files (x86)\Microsoft Office\Office16
+
+进去这个目录，可以看见有个OSPP.VBS文件
+
+如果是OFFICE 2016 64位版，目录应为：
+
+C:\Program Files\Microsoft Office\Office16
+
+第二步、powershell中cd “C:\Program Files (x86)\Microsoft Office\Office16”（双引号中对应你的实际目录）
+
+第三步、输入cscript ospp.vbs /sethst:192.168.50.1（你的路由IP）
+
+第四步、输入cscript ospp.vbs /act
+
+接下来享受激活的WINDOWS和OFFICE吧（使用系统自身批处理命令激活，因此不可能有后门，不用担心病毒和信息窃取之类的）。如果失败，请检查WINDOWS和OFFICE具体版本信息。
