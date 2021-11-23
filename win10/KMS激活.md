@@ -83,3 +83,8 @@ bug:
 3. 检查 https://docs.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys
 可以发现 DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ 密钥是 Windows 10 Enterprise LTSB 2016，可能这就是激活不完美的原因吧
 
+# 4.  实验二：
+ 更换密钥：slmgr /ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D
+ 再次激活：slmgr.vbs -ato
+ 返回的信息显示激活，但是桌面右下角依然还有提示，测试模式
+
