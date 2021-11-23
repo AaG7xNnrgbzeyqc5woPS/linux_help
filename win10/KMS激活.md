@@ -10,6 +10,7 @@
 - ❤️[GVLKs for KMS and Active Directory-based activation of Office, Project, and Visio](https://docs.microsoft.com/en-us/deployoffice/vlactivation/gvlks
 )
 - [基于路由openwrt固件激活WINDOWS+OFFICE的步骤](https://www.vjsun.com/629.html)
+- [Windows 10 LTSC 2019 KMS激活](http://demon.tw/operating-system/windows-10-ltsc-2019-kms.html)
 
 
 # 1. kms服务器测试
