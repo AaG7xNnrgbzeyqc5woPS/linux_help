@@ -61,3 +61,25 @@ C:\Program Files\Microsoft Office\Office16
 第四步、输入cscript ospp.vbs /act
 
 接下来享受激活的WINDOWS和OFFICE吧（使用系统自身批处理命令激活，因此不可能有后门，不用担心病毒和信息窃取之类的）。如果失败，请检查WINDOWS和OFFICE具体版本信息。
+
+# 4. 激活实验一
+1. 管理员身份启动 cmd
+2. 卸载当前密钥 slmgr /upk
+3. 安装 VOL版本密钥：slmgr /ipk DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ
+4. 设置KMS服务器： slmgr.vbs -skms 192.168.2.2
+5. 激活当前客户端：slmgr.vbs -ato
+6. 查看激活信息：  slmgr -dlv
+
+测试成功的电脑的软件版本如下：
+版本	Windows 10 企业版 LTSC
+版本号	21H2
+安装日期：2021/11/22
+操作系统内部版本	19044.1288
+体验	Windows Feature Experience Pack 120.2212.3920.0
+
+bug:
+- 1. /设置/更新和安全/激活 已经显示 激活成功“已经通过你所在的组织的激活服务器激活”
+- 2. 但是windows桌面右下角有提示，“测试模式”，应该是激活不成功。重启，更换桌面图片也还在。
+- 3. 检查 https://docs.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys
+可以发现 DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ 密钥是 Windows 10 Enterprise LTSB 2016，可能这就是激活不完美的原因吧
+
