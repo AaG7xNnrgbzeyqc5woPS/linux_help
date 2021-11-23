@@ -6,7 +6,10 @@
 - [三种自建KMS激活系统自动激活windows方法](https://www.bilibili.com/read/cv12741231)
 - [OpenWrt 搭建 KMS 服务器](https://www.mivm.cn/openwrt-kms)
 - ❤️[Key Management Services (KMS) client activation and product keys](https://docs.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys)
-- ❤️[GVLKs for KMS and Active Directory-based activation of Office, Project, and Visio]()https://docs.microsoft.com/en-us/deployoffice/vlactivation/gvlks
+- ❤️[GVLKs for KMS and Active Directory-based activation of Office, Project, and Visio](https://docs.microsoft.com/en-us/deployoffice/vlactivation/gvlks
+)
+- [基于路由openwrt固件激活WINDOWS+OFFICE的步骤](https://www.vjsun.com/629.html)
+
 
 # 1. kms服务器测试
 ```
