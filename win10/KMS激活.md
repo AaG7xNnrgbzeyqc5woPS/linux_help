@@ -63,12 +63,13 @@ C:\Program Files\Microsoft Office\Office16
 接下来享受激活的WINDOWS和OFFICE吧（使用系统自身批处理命令激活，因此不可能有后门，不用担心病毒和信息窃取之类的）。如果失败，请检查WINDOWS和OFFICE具体版本信息。
 
 # 4. 激活实验一
-1. 管理员身份启动 cmd
-2. 卸载当前密钥 slmgr /upk
-3. 安装 VOL版本密钥：slmgr /ipk DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ
-4. 设置KMS服务器： slmgr.vbs -skms 192.168.2.2
-5. 激活当前客户端：slmgr.vbs -ato
-6. 查看激活信息：  slmgr -dlv
+1. 管理员身份启动    cmd
+2. 卸载当前密钥      slmgr /upk
+3. 安装/更换GVLK：   slmgr /ipk DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ
+4. 设置KMS服务器：   slmgr.vbs -skms 192.168.2.2
+5. 激活当前客户端：  slmgr.vbs -ato
+6. 查看激活信息：   slmgr -dlv
+7. 查看激活过期时间：slmgr -xpr
 
 > 测试成功的电脑的软件版本如下：
 > 版本	Windows 10 企业版 LTSC
