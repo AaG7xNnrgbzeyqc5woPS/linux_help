@@ -1,4 +1,5 @@
 # 0. See:
+- [OpenWrt 搭建 KMS 服务器](https://www.openwrt.pro/post-447.html)
 - [KMS主机使用指南](https://blog.51cto.com/timethin/308260)
 - [教程-浅谈KMS自动发现激活原理](https://www.52asus.com/thread-14202-1-1.html)
 - [win10手动kms激活步骤 kms手动命令激活win10方法](http://www.xitongcheng.com/jiaocheng/win10_article_45712.html)
