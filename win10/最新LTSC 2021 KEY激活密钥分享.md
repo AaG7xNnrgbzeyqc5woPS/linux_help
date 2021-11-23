@@ -1,3 +1,6 @@
+# 0. See:
+- [Win10 LTSC 2021怎么激活？最新LTSC 2021 KEY激活密钥分享](http://www.xitongzhijia.net/xtjc/20211117/233075.html)
+
 # 最新LTSC 2021 KEY激活密钥分享
 
 # Win 2021 RTM EnterpriseSN Volume:MAK
