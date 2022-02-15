@@ -3,3 +3,4 @@
   - [Discussion:[Nix-dev] Setting proxy environmental variables](https://nix-dev.science.uu.narkive.com/74NqOga9/setting-proxy-environmental-variables)
   - [nixos roaming laptop: network proxy configuration](https://www.reddit.com/r/NixOS/comments/6od9vy/nixos_roaming_laptop_network_proxy_configuration/)
   - [roaming laptop: network proxy configuration #27535](https://github.com/NixOS/nixpkgs/issues/27535)
+  - [How to use nix behind corporate proxy on Mac?](https://discourse.nixos.org/t/how-to-use-nix-behind-corporate-proxy-on-mac/12990/2)
