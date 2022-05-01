@@ -68,6 +68,11 @@ trying https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/g
 
 ```
 ==test ok! == 
+# 总结：
+  1. 关键点，要使用 http代理，sock5代理不行
+  2. openwrt 设置 名称为tinyporxy的http/https代理,不用设置前置代理就能翻墙，
+    似乎自动利用我前面设置的翻墙代理。不知道怎么回事，跟想象的不一样，也许我理解错了。
+  3. 
 
 # See:
 
