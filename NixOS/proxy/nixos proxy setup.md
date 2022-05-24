@@ -68,11 +68,29 @@ trying https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/g
 
 ```
 ==test ok! == 
+
+
 # 总结：
   1. 关键点，要使用 http代理，sock5代理不行
   2. openwrt 设置 名称为tinyporxy的http/https代理,不用设置前置代理就能翻墙，
     似乎自动利用我前面设置的翻墙代理。不知道怎么回事，跟想象的不一样，也许我理解错了。
   3. 
+
+#  behind a proxy
+   install NixOS behind a proxy, do the following before running nixos-install.
+
+Update proxy configuration in /mnt/etc/nixos/configuration.nix to keep the internet accessible after reboot.
+networking.proxy.default = "http://user:password@proxy:port/";
+networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
+Setup the proxy environment variables in the shell where you are running nixos-install.
+
+```
+# proxy_url="http://user:password@proxy:port/"
+# export http_proxy="$proxy_url"
+# export HTTP_PROXY="$proxy_url"
+# export https_proxy="$proxy_url"
+# export HTTPS_PROXY="$proxy_url"
+```
 
 # See:
 
