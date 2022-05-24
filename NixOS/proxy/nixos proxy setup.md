@@ -76,7 +76,7 @@ trying https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/g
     似乎自动利用我前面设置的翻墙代理。不知道怎么回事，跟想象的不一样，也许我理解错了。
   3. 
 
-#  behind a proxy
+# 改进
    install NixOS behind a proxy, do the following before running nixos-install.
 
 Update proxy configuration in /mnt/etc/nixos/configuration.nix to keep the internet accessible after reboot.
