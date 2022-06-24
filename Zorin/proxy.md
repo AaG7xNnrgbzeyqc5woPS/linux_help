@@ -48,7 +48,8 @@ $ sudo snap install ...
 $ neofecth
 
 ```
-Test it Ok! This is better way than "## 2.1  snap set "
+Test it Ok! 
+This is better way than "2.1  snap set "
 
 
 
