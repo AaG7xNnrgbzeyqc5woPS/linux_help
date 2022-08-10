@@ -17,7 +17,7 @@ sudo apt  install docker.io  #关键，安装docker
 
 sudo systemctl status docker  # 查看docker服务状态
 sudo usermod -aG  docker john  #重要，授权当前用户，使用whoami查找当前用户
-sudo reboot   //logout        # 省略
+sudo reboot   //logout        # 重要，不能省略。重新启动电脑，权限才生效！
 
 # 以下测试是否安装好
 docker info
