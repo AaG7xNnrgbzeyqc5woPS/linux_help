@@ -7,7 +7,7 @@
 
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 
-# 
+# 使用 apt 命令安装
 
 ```
 sudo apt  install docker.io  #关键，安装docker
