@@ -22,6 +22,10 @@ curl -x "http://user:pwd@127.0.0.1:1234" "http://httpbin.org/ip"
 
 > curl --proxy "http://user:pwd@127.0.0.1:1234" "http://httpbin.org/ip"
 
+由于代理地址的默认协议为http, 所以可以省略，按照下面的形式，也是可以的。
+```
+curl --proxy "user:pwd@127.0.0.1:1234" "http://httpbin.org/ip"
+```
 
 # 排查问题
 
