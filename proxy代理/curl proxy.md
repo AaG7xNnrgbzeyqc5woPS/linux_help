@@ -20,7 +20,7 @@ curl -x "http://user:pwd@127.0.0.1:1234" "http://httpbin.org/ip"
 
 ```
 
-`` curl --proxy "http://user:pwd@127.0.0.1:1234" "http://httpbin.org/ip"
+>> curl --proxy "http://user:pwd@127.0.0.1:1234" "http://httpbin.org/ip"
 
 
 # 排查问题
