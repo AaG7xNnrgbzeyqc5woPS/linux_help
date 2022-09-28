@@ -1,5 +1,5 @@
 
-# 资源
+# 一、 资源
 ## 1. Ubuntu 20.04.5 ISO Download pages:
 - [Ubuntu 20.04.5 LTS (Focal Fossa)](https://releases.ubuntu.com/20.04.5/?_ga=2.262879308.1179223853.1664338732-1593336368.1664338732)
 - [Direct Download](https://releases.ubuntu.com/20.04.5/ubuntu-20.04.5-desktop-amd64.iso)
@@ -16,7 +16,28 @@
 ## 4. 安装教程
 - ❤️ [Ubuntu 20.04 LTS 桌面版详细安装指南](https://www.sysgeek.cn/install-ubuntu-20-04-lts-desktop/)
 
-# 安装步骤
+# 二、 安装步骤
 ## 1.准备材料
   - 打印安装教程 [Ubuntu 20.04 LTS 桌面版详细安装指南](https://www.sysgeek.cn/install-ubuntu-20-04-lts-desktop/)
-  - 启动U盘，
+  - 启动U盘，ventoy
+  - 下载  ubuntu-20.04.5 ISO 文件 [Direct Download](https://mirror.nju.edu.cn/ubuntu-releases/20.04.5/ubuntu-20.04.5-desktop-amd64.iso)
+  - 将 ubuntu-20.04.5 ISO 文件 拷贝进 ventoy 盘，启动盘就 做好了。
+
+## 2. 参考教程安装 
+  配置安装选项：
+  - 语言选择“中文”
+  - 键盘布局 Chinese/Chinese
+  - 安装模式：正常安装/最小安装 都可以
+  - ❤️ 其它选项不要选择，安装时候下载更新，安装第三方软件，都不要选择
+  - ❤️ 清除整个磁盘并安装 Ubuntu，这个选择缺省，下面一个小字，高级选项不要选择，保持缺省 None selected
+  - "将对磁盘进行的更改的列表",点击继续。这一步将 给磁盘分区，请确保硬盘已经备份。
+  - 居住地，即时区，选择 "ShangHai"
+  - 设置名字，密码
+  - 设置登陆时候需要密码
+  - 再点击「继续」按钮，Ubuntu 20.04 LTS 桌面版就正式开始安装了！
+  - 安装完成重新启动。启动前，系统会检查启动U盘，提示你拔出U盘，直接立即拔出即可! 回车键后系统继续重启！
+  - ❤️ 重要，安装过程中选项是否连接wifi，选择不要连接，这样安装会很快！
+ 
+## 3. 首次登录 Ubuntu 20.04 LTS
+  
+
