@@ -6,8 +6,11 @@
 
 ## 方法一：
 只需要在终端执行下面两条命令即可
+
 ``` sudo apt update ```
+
 ``` sudo apt install virtualbox virtualbox-ext-pack virtualbox-guest-additions-iso ```
+
 1. 第一条命令更新软件源的缓存，
 2. 第二条命令安装 三个软件包，
 3. 第一个包是 virtualbox主体，
