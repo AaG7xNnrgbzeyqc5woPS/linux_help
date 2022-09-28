@@ -6,8 +6,11 @@
 
 # 南京大学镜像网站
 - [南京大学镜像 ubuntu-releases/20.04.5/](https://mirror.nju.edu.cn/ubuntu-releases/20.04.5/)
-- [Direct Download](https://mirror.nju.edu.cn/ubuntu-releases/20.04.5/ubuntu-20.04.5-desktop-amd64.iso)
+- ❤️ [Direct Download](https://mirror.nju.edu.cn/ubuntu-releases/20.04.5/ubuntu-20.04.5-desktop-amd64.iso)
 
 # 清华大学镜像
- - [清华大学镜像 ubuntu-releases/20.04.5/](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/20.04.5/)
- - [Direct Download](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/20.04.5/ubuntu-20.04.5-desktop-amd64.iso)
+- [清华大学镜像 ubuntu-releases/20.04.5/](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/20.04.5/)
+- ❤️ [Direct Download](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/20.04.5/ubuntu-20.04.5-desktop-amd64.iso)
+
+# 安装教程
+- ❤️ [Ubuntu 20.04 LTS 桌面版详细安装指南](https://www.sysgeek.cn/install-ubuntu-20-04-lts-desktop/)
