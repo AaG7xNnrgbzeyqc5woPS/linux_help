@@ -20,4 +20,6 @@ sudo apt install virtualbox virtualbox-ext-pack virtualbox-guest-additions-iso
 3. 第一个包是 virtualbox主体，
 4. 第二是扩展包，包含扩展功能，
 5. 第三个包是 客户机中安装virtualbox增强工具的ISO,以便virtualbox更好的管理和控制客户机
+6. 安装完成后，可以在主菜单中找到 virtualbox 程序
+7. 重启电脑后，就可以执行virtualbox了
 
