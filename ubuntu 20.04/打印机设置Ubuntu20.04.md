@@ -46,6 +46,26 @@ sudo apt install cups
 - 这样默认是在本地网络上共享打印机,只有同一个网段的主机才能通过网络使用这台打印机。
 - 如果同时勾选了”Allow printing from the Internet”,则所有通过网络可以访问这台主机的机器都可以使用这台打印机。
 
+## 2.3 cups高级配置
+- firefox 访问地址：https://127.0.0.1:631
+- /etc/
+Encryption Never
+#表示访问管理员页面无需对密码加密 
+
+```
+DefaultAuthType Basic  
+改为 ：   
+DefaultAuthType None
+```
+
+```
+认证类型的取值（值域）：
+      AuthType None
+      AuthType Basic
+      AuthType Default
+      AuthType Negotiate
+            Specifies the type of authentication required.  The value "Default" corresponds to the DefaultAuthType value.
+``
 
 
 
