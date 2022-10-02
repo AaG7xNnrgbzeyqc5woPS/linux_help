@@ -54,5 +54,7 @@ john@john-TM1613:~/depot/ISO$
 john@john-TM1613:~/depot/ISO$ echo '5463898b5fdf07d446bcf06ee86815033fce5e3a  ubuntu-20.10-desktop-amd64.iso' > check1.txt
 john@john-TM1613:~/depot/ISO$ cat check1.txt
 5463898b5fdf07d446bcf06ee86815033fce5e3a  ubuntu-20.10-desktop-amd64.iso
-john@john-TM1613:~/depot/ISO$
+john@john-TM1613:~/depot/ISO$ sha1sum -c check1.txt 
+ubuntu-20.10-desktop-amd64.iso: 成功
+
 ```
