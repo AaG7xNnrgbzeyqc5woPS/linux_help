@@ -8,7 +8,7 @@
 
 # 命令行CLI
 - sudo apt install p7zip-full p7zip-rar
-- p7zip -h
+- 7z --help
 - apt search 7zip
 
 # 桌面版
@@ -17,6 +17,7 @@
  - sudo snap install p7zip-desktop
  - 开始菜单里面可以找到 p7zip-desktop
  - 对中文支持不好，乱码！
+ - p7zip -h 这个可能是 p7zip-desktop的命令行版
  
  ```
 john@john-TM1613:~/tmp/WIN10$ snap find 7zip
