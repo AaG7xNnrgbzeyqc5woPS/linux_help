@@ -12,11 +12,11 @@
 - apt search 7zip
 
 # 桌面版
- snap list
- snap find 7zip
- sudo snap install p7zip-desktop
- 开始菜单里面可以找到 p7zip-desktop
- 对中文支持不好，乱码！
+ - snap list
+ - snap find 7zip
+ - sudo snap install p7zip-desktop
+ - 开始菜单里面可以找到 p7zip-desktop
+ - 对中文支持不好，乱码！
  
  ```
 john@john-TM1613:~/tmp/WIN10$ snap find 7zip
