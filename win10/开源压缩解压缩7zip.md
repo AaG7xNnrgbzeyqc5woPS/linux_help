@@ -4,6 +4,7 @@
 - [p7zip的解压和压缩](https://blog.csdn.net/u013991521/article/details/49624561)
 - [如何在 Ubuntu 和其他 Linux 发行版上使用 7Zip](https://zhuanlan.zhihu.com/p/65791205)
 - [linux使用7zip加密打包文件教程](https://www.livelu.com/202004377.html)
+- [ 在Linux发行版上使用7zip的方法](https://www.cnblogs.com/linuxprobe-sarah/p/10920389.html)
 
 # 命令行CLI
 - sudo apt install p7zip-full p7zip-rar
