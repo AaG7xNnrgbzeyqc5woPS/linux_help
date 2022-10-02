@@ -6,7 +6,11 @@
 - [HP LaserJet Professional m1136 Multifunction Printer](https://developers.hp.com/hp-laserjet-professional-m1136-multifunction-printer)
 - [HP Laserjet M1136 MFP in Ubuntu 16.04](https://askubuntu.com/questions/815275/hp-laserjet-m1136-mfp-in-ubuntu-16-04)
 - [HP M1136打印机在Unbuntu 20.04下工作](https://zhuanlan.zhihu.com/p/357636206)
+- [Linux的打印服务CUPS的安装、配置和使用](https://www.cnblogs.com/leaven/archive/2010/10/20/1856482.html)
+- [使用 CUPS Web 浏览器界面设置和管理打印机 ](https://docs.oracle.com/cd/E26926_01/html/E25812/gllhj.html)
 - 
+
+
 # 1. 安装打印机驱动
  ## 1.1 install hp 软件包
 - sudo apt search hplip 
