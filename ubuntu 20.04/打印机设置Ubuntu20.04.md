@@ -38,7 +38,9 @@ sudo apt install cups
 
 ## 2.2 cups配置
 - firefox 访问地址：https://127.0.0.1:631
-- 
+- 进入administrator页签,右侧Server栏下,勾选”Share printers connected to this system”,
+- 这样默认是在本地网络上共享打印机,只有同一个网段的主机才能通过网络使用这台打印机。
+- 如果同时勾选了”Allow printing from the Internet”,则所有通过网络可以访问这台主机的机器都可以使用这台打印机。
 
 
 
