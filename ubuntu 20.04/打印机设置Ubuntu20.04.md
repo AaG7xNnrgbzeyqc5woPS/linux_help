@@ -65,8 +65,36 @@ DefaultAuthType None
       AuthType Default
       AuthType Negotiate
             Specifies the type of authentication required.  The value "Default" corresponds to the DefaultAuthType value.
-``
+```
 
+## 2.4. 配置文件
+ - /etc/cups/cupd.conf
+
+
+ ```
+ cd /etc/cups
+ ls -l
+ sudo nano cupsd.conf
+ 
+ 增加修改：
+ # Listen 0.0.0.0:631
+ Browsing On
+ DefaultShared Yes
+ 
+ ```
+ **下面这段，修改成这样：**
+ 去掉网页访问认证，这样访问 https://127.0.0.1:631 的管理员配置项，就不用输入密码了
+ ```
+ # Restrict access to configuration files...
+<Location /admin/conf>
+#  AuthType Default
+#  Require user @SYSTEM  # by hwt 2022.10.2
+#  AuthType None
+  Order allow,deny
+</Location>
+
+ ```
+ 
 
 
 
