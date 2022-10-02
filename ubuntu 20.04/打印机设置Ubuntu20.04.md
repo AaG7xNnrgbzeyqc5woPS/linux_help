@@ -7,3 +7,29 @@
 - [HP Laserjet M1136 MFP in Ubuntu 16.04](https://askubuntu.com/questions/815275/hp-laserjet-m1136-mfp-in-ubuntu-16-04)
 - [HP M1136打印机在Unbuntu 20.04下工作](https://zhuanlan.zhihu.com/p/357636206)
 - 
+# install 
+sudo apt search hplip 
+
+sudo apt install hplip-gui
+sudo apt-get install hplip
+
+# install hp driver
+- 必须打印机连接后才能成功安装驱动
+GUI界面
+```
+sudo hp-setup 
+```
+
+命令行 CLI:
+```
+sudo hp-setup -i 
+```
+
+# 
+
+
+
+
+
+
+
