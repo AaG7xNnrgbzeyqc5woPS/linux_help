@@ -58,3 +58,7 @@ john@john-TM1613:~/depot/ISO$ sha1sum -c check1.txt
 ubuntu-20.10-desktop-amd64.iso: 成功
 
 ```
+
+# 安装图像化工具
+- sudo apt-get install gtkhash
+- 
