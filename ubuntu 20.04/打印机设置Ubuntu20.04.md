@@ -94,7 +94,11 @@ DefaultAuthType None
 </Location>
 
  ```
- **注意：网页会重写 cupsd.conf，您在该文件中写的注释将会全部丢失！ **
+ 
+ 
+ 
+**注意：网页中修改配置，会重写 cupsd.conf，您在该文件中写的注释将会全部丢失！**
+
  
 
 
