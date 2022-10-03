@@ -36,7 +36,8 @@ sudo hp-setup -i
 
 ## 1.4. 打印测试页
 
-# 2. 共享打印机设置
+
+# 2. 共享打印机设置(服务器)
 ## 2.1 安装cups
 sudo apt install cups
 
@@ -101,7 +102,15 @@ DefaultAuthType None
 
  
 
+# 3.共享打印机客户端连接
 
+## 3.1 Ubuntu
+- 如果是 Ubuntu 14.04 LTS系统，不需要任何配置，直接打印 ---> 选择打印机名字即可
+
+## 3.2 Windows
+- 如果Windows 系统，打开控制面板【添加打印机】【网络打印机】在【选择打印机】列表中选择
+共享打印机服务器的名字或IP\HP_LaserJet_Professional_M1136_MFP
+- 下一步安装打印机的驱动就可以了，最好是提前安装打印机的驱动，注意型号要选择正确！
 
 
 
