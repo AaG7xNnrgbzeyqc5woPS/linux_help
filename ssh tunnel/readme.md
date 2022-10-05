@@ -19,3 +19,15 @@
   ssh SSH_SEERVER                  # 假设这是登陆 SSH_SEERVER 的指令
   ssh -N -D 9889 SSH_SEERVER       # 这一条指令可以建立一个动态端口转发，端口为 9889。
 ```
+
+# Autossh
+
+The autossh command is used to add persistence to your tunnels. The job it has is to verify your ssh connection is up, and if it’s not, create it.
+
+Here is an autossh command which you may recognize.
+
+`autossh -N -i /home/blueuser/.ssh/id_rsa -R 2222:localhost:22 greenuser@192.168.0.3`
+
+The -i /home/blueuser/.ssh/id_rsa option says to use a certificate to authenticate this ssh connection. Check out this post to learn more about ssh certificates.
+
+Now when your tunnel goes down it will automatically try to reconnect and keep trying until it is successful. To make it persistent through a reboot, add the ssh command as a cron job.
