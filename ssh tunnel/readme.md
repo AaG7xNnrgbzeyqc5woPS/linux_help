@@ -7,6 +7,7 @@
 - [How to Set up SSH Tunneling (Port Forwarding)](https://linuxize.com/post/how-to-setup-ssh-tunneling/)
 - 💙[OpenSSH/Cookbook/Proxies and Jump Hosts](https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Proxies_and_Jump_Hosts#Passing_Through_a_Gateway_with_an_Ad_Hoc_VPN)
 - ❤️[OpenSSH-wikibooks](https://en.wikibooks.org/wiki/OpenSSH)
+- ❤️[一键安装最新内核并开启 BBR 脚本](https://teddysun.com/489.html)
 
 # 最简单最实用的动态端口转发
 - 更准确应该叫**本地动态端口转发**
@@ -32,3 +33,10 @@ Here is an autossh command which you may recognize.
 The -i /home/blueuser/.ssh/id_rsa option says to use a certificate to authenticate this ssh connection. Check out this post to learn more about ssh certificates.
 
 Now when your tunnel goes down it will automatically try to reconnect and keep trying until it is successful. To make it persistent through a reboot, add the ssh command as a cron job.
+
+# ❤️[一键安装最新内核并开启 BBR 脚本](https://teddysun.com/489.html)
+ - 购买服务器后，可以使用上面的 ssh -N -D 9889 SSH_SEERVER 命令建立翻墙代理
+ - 可以浏览github,继续安装更专业的翻墙代理了
+ - 第一件事情就是 打开 BBR，这样 ssh隧道速度超快
+ - 注意：ssh隧道流量太大，会受到神秘力量的干扰，会断流。
+ - 所以还是尽快 安装更专业的代理吧
