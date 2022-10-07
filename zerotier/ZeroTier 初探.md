@@ -46,5 +46,6 @@ If a friend wants to join your network they can do so in the exact same way.
 
 
 # See:
- -❤️[一分钟自建zerotier-planet](https://github.com/Jonnyan404/zerotier-planet)
- -❤️[一分钟自建zerotier-plant](https://www.mrdoc.fun/doc/443/)
+ - ❤️[一分钟自建zerotier-planet](https://github.com/Jonnyan404/zerotier-planet)
+ - ❤️[一分钟自建zerotier-plant](https://www.mrdoc.fun/doc/443/)
+ - ❤️[建议作者修改描述：此项目并不是搭建私有的planet，只是一个私有的controller + ui。强烈建议新手阅读！！](https://github.com/Jonnyan404/zerotier-planet/issues/11#issuecomment-1059961262)
