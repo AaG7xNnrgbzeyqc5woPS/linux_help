@@ -45,4 +45,6 @@ Check the Auth checkbox on your admin console when your 10-digit node address pr
 If a friend wants to join your network they can do so in the exact same way.
 
 
-  
+# See:
+ -❤️[一分钟自建zerotier-planet](https://github.com/Jonnyan404/zerotier-planet)
+ -❤️[一分钟自建zerotier-plant](https://www.mrdoc.fun/doc/443/)
