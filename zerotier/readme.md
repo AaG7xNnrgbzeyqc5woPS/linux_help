@@ -18,5 +18,9 @@
 - [ZerotTierOne - Source Code](https://github.com/zerotier/ZeroTierOne)
 - [ZeroTier Knowledge Base](https://zerotier.atlassian.net/wiki/spaces/SD/overview)
 
+# See:
+- [NAT-PMP Vulnerability](https://resources.infosecinstitute.com/topic/nat-pmp-vulnerability/)
+- [NAT Port Mapping Protocol](https://en.wikipedia.org/wiki/NAT_Port_Mapping_Protocol)
+
 
 
