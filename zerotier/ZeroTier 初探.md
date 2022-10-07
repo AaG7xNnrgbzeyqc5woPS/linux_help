@@ -52,3 +52,4 @@ If a friend wants to join your network they can do so in the exact same way.
  - ❤️[ xubiaolin /docker-zerotier-planet](https://github.com/xubiaolin/docker-zerotier-planet)
  - ❤️ [五分钟自建 ZeroTier 的 Planet/Controller](https://v2ex.com/t/799623)
  - ❤️ [ key-networks /ztncui-aio ](https://github.com/key-networks/ztncui-aio)
+ - ❤️ [[zerotier]私有部署](https://segmentfault.com/a/1190000040618153)
