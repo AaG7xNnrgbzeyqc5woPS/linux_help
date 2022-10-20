@@ -24,8 +24,19 @@
   netstat -l | grep tcp
   ```
 
-## sql server 服务器
-
-   
+## sql server 服务器 vm1
+ - 操作系统 windows xp professional 2002 + sp3
+ - SQL SERVER 2000 + sp4
+ - SQL server port 1433
+ - 网络命令：
+ ```
+ ipconfig
+ netstat -ano
+ ```
+## SQL client 客户端 vm2
+- 操作系统 windows xp professional 2002 + sp3
+- SQL SERVER 2000 + sp4
+- SQL server port 1433
+- 是上一个系统的科隆（）版
    
   
