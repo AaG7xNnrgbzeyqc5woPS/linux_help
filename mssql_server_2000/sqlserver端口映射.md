@@ -13,9 +13,19 @@
    成功后在测试 zerotier网络上 是否可以访问。
    
 # 实验环境 
+## 主机 host
  - 主机是笔记本，操作系统是 ubunut 20.04,升级到最新。
  - 主机安装了 virtual box V6.1.38 虚拟机管理软件
  - 主机网络地址：192.168.2.106/24
+ - 主机 网络配置查看命令：
+  ```
+  ip -4 addr
+  netstat -l
+  netstat -l | grep tcp
+  ```
+
+## sql server 服务器
+
    
    
   
