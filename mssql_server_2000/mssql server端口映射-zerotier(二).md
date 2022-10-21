@@ -33,7 +33,7 @@
 # 测试三 不同城市通过 zerotier互联（未测试）
   - 客户端和服务器端在不同城市。使用 SQL SERVER 企业管理器，通过 zerotier 链接 winxp 下的 sql server 2000服务器
 
-# 测试四 不同城市sql应用链接sql数据库
+# 测试四 不同城市sql应用链接sql数据库（未测试）
   - 客户端应用 在 win xp下，数据库服务器在另外一个城市的windows xp下
   - 这两台虚拟机vm1,vm2在不同城市，一个里面运行 需要连接sql server数据库的应用程序，一个运行着sql server 数据库
   - 配置合适连接会成功！
