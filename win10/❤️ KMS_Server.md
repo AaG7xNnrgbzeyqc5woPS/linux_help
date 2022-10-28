@@ -5,6 +5,6 @@
 - [Wind4/vlmcsd-docker & dockercompose](https://github.com/Wind4/vlmcsd-docker)
 
 # Wind4 KMS Docker
-- [Wind4 KMS Docker](https://github.com/Wind4/vlmcsd-docker)
+- ❤️ [Wind4 KMS Docker](https://github.com/Wind4/vlmcsd-docker)
 - 上面这个链接是 原作者的 docker 文件！
 - 使用docker安装简单便捷
