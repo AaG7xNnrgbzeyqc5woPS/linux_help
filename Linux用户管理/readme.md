@@ -5,5 +5,5 @@
 - [Creating a user without a password](https://unix.stackexchange.com/questions/56765/creating-a-user-without-a-password)
 - [How to Handle Account Passwords in Linux With passwd Command](https://linuxhandbook.com/passwd-command/)
 - [How to Change, Remove, or Disable User Password in Linux](https://linuxiac.com/how-to-change-remove-disable-user-password-in-linux/)
-- 
+- [How do I create a blank user password in Linux?](http://kb.eclipseinc.com/kb/how-do-i-create-a-blank-user-password-in-linux/)
 
