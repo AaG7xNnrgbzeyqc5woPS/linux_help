@@ -8,6 +8,7 @@
 - 💙[OpenSSH/Cookbook/Proxies and Jump Hosts](https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Proxies_and_Jump_Hosts#Passing_Through_a_Gateway_with_an_Ad_Hoc_VPN)
 - ❤️[OpenSSH-wikibooks](https://en.wikibooks.org/wiki/OpenSSH)
 - ❤️[一键安装最新内核并开启 BBR 脚本](https://teddysun.com/489.html)
+- 💙[Ip Tunnel Over Ssh With Tun ](https://www.marcfargas.com/2008/07/ip-tunnel-over-ssh-with-tun/)
 
 # 最简单最实用的动态端口转发
 - 更准确应该叫**本地动态端口转发**
