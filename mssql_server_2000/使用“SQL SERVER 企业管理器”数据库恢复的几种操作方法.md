@@ -38,4 +38,10 @@
   - 💔 注意一：SQL Server 企业管理器，不能识别网络硬盘，对virtual box的共享硬盘能够识别，但是支持不好，操作会失败。所以要将备份文件A，拷贝到 虚拟机内的硬盘上，比如硬盘C：
   - 注意二：恢复完数据库后，记得更改注册表，使得应用程序能够访问到正确的数据库
 
+# 5. 操作环境
+ - 虚拟机管理系统： virtual box 6.1
+ - 虚拟机操作系统:  Windows XP Professional 2002 Service Pack 3
+ - 数据库管理系统： SQL Server 2000 Personal Edition SP4 (版本：8.00.2039)
+ - 
+
 
