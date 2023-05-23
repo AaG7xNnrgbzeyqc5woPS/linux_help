@@ -3,6 +3,7 @@
 - [Win10 LTSC 2019 长期支持版 下载激活](https://www.cnblogs.com/onelikeone/p/11594802.html)
 - [msdn i tell you](https://msdn.itellyou.cn/)
 - [next.itellyou.cn](https://next.itellyou.cn/Original/Index#cbp=Product?ID=f905b2d9-11e7-4ee3-8b52-407a8befe8d1)
+- ❤️[Win10_22H2_Chinese_Simplified_x64.iso](https://www.microsoft.com/zh-cn/software-download/windows10ISO)
 
 # 1. win10版本
 Win10哪个版本占用空间最小？大家经常听到的Win10版本主要为四个，分别是专业版、家庭版、企业版、教育版，其实除了这四个之外，还有工作站版、LTSB/LTSC等不同的版本，在安装的时候很多人因为配置的问题可能想要占用空间最小的版本，但是不知道这些该如何选择，这里也是为大家详细的说明。
