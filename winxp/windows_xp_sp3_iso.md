@@ -64,6 +64,7 @@ Windows XP Professional with Service Pack 3 (x86) - CD VL (Chinese-Simplified)](
 - [How to obtain authentic Microsoft XP ISOs](https://msfn.org/board/topic/173057-how-to-obtain-authentic-microsoft-xp-isos/)
 It is easy to obtain ISOs of WIndows XP from bitorrent or from numerous blogspot sites, but this is a risky thing to do because maliceous code could be inserted into the ISOs to compromise your security.  Other legitimate sources are no longer available because XP ISOs are no longer made available to MSDN/Technet subscribers and the Digital Rivers download site no longer exists as far as I can tell, although there are links available for Windows 7 ISOs from Digital River.  However, if you can obtain the files names of the original XP downloads from MSDN/Technet along with their SHA1 or MD5 checksum values you should be able to find them archived elsewhere with reasonable certainty that they are untouched ISOs originaly from an authorised source.  I post here a list of file names and hash values for XP ISOs that probably originated from MSDN/Technet and you can Google the file names to find downloads for them.  Of course, there is no guarentee that either the file names or hash values provided here are authentic.
 
+```
 Windows XP Professional with Service Pack 3 (x86) Retail CD (English)
 Size: 589.14 MB
 MD5: F424A52153E6E5ED4C0D44235CF545D5
@@ -213,5 +214,5 @@ Size: 615.45 MB
 SHA1: 723f0206cf09e5c8693de5eeaee7da849e734bc8
 ISO/CRC: FFFFFFFF
 Edited November 22, 2014 by Xtremetic 
-
+```
 
