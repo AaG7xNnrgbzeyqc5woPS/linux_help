@@ -56,9 +56,10 @@ ISO/CRC: FFFFFFFF
  ```
 
 # 3. 刚刚发现的秘诀
-- ❤️ 使用 sha1 校验码直接搜索，可以找到很多链接
+- ❤️ 使用 sha1 D142469D0C3953D8E4A6A490A58052EF52837F0F 校验码直接搜索，可以找到很多链接:
 - 看起来不错的网站如下
 - [windows全系列vl版下载](https://cnman.github.io/windows.html)  
+- [Windows](https://github.com/ILLKX/Windows)
 - [How to obtain authentic Microsoft XP ISOs](https://msfn.org/board/topic/173057-how-to-obtain-authentic-microsoft-xp-isos/)
 - [ntacts
 Windows XP Professional with Service Pack 3 (x86) - CD VL (Chinese-Simplified)](https://msdn.su/downloads/operating-systems/windows-xp/32-bit/cn/iso/zh-hans-windows-xp-professional-with-service-pack-3-x86-cd-vl-x14-74070-iso)
