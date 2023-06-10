@@ -10,12 +10,12 @@
 - [Direct download : zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_x14-80404.iso](https://archive.org/download/ms_windows_xp_sp3_10/zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_x14-80404.iso)
 - [Direct download torrent file：ms_windows_xp_sp3_10_archive.torrent](https://archive.org/download/ms_windows_xp_sp3_10/ms_windows_xp_sp3_10_archive.torrent)
 - 
-## 介绍：
+## 1.1 介绍：
 - windows xp sp3 中文专业版，需要序列号，试用1个月
 - 英文版或者其它语言版本去上面参考主页去下载
 - 都是 MSDN原版
 
-## 校验信息
+## 1.2 校验信息
 - sha1sum --help     //sha-1校验命令
 - sha256sum  --help  //sha256 校验命令
 - sha512sum  --help  //sha512 校验命令
@@ -34,14 +34,20 @@ SHA-1:69dbf131116760932dcf132ade111d6b45778098
 - [Windows XP](https://www.imsdn.cn/operating-systems/windows-xp/)
 - [emaul下载链接](ed2k://|file|zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74070.iso|630237184|EC51916C9D9B8B931195EE0D6EE9B40E|/)
 
-## 校验信息
+## 2.1 校验信息
 ```
 文件名：zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74070.iso
 文件大小：601.04MB
+文件大小：630237184字节
 发布时间：2008-05-02
+
 SHA1：D142469D0C3953D8E4A6A490A58052EF52837F0F
+SHA1: d142469d0c3953d8e4a6a490a58052ef52837f0f
+MD5: e74d72f3d90456003e9e02ba0fb7da61
+ISO/CRC: FFFFFFFF
+
 ```
-## VOL安装密钥：
+## 2.2 VOL安装密钥：
  ```
  MRX3F-47B9T-2487J-KWKMF-RPWBY
  ```
