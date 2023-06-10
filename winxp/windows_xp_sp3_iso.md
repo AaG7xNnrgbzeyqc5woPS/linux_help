@@ -4,7 +4,8 @@
 - [Installing XP SP3 under Proxmox VE](https://github.com/hpaluch/hpaluch.github.io/wiki/Installing-XP-SP3-under-Proxmox-VE)
 - [Installing Windows XP in VirtualBox (or other VM)](https://eprebys.faculty.ucdavis.edu/2020/04/08/installing-windows-xp-in-virtualbox-or-other-vm/)
 
-# zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_x14-80404.iso
+# windows xp sp3 中文专业版
+- 文件名：zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_x14-80404.iso
 - [main page: Windows XP SP3 (ar,cn,de,en,es,fr,it,ja,pt,ru) MSDN](https://archive.org/details/ms_windows_xp_sp3_10)
 - [Direct download : zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_x14-80404.iso](https://archive.org/download/ms_windows_xp_sp3_10/zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_x14-80404.iso)
 - [Direct download torrent file：ms_windows_xp_sp3_10_archive.torrent](https://archive.org/download/ms_windows_xp_sp3_10/ms_windows_xp_sp3_10_archive.torrent)
@@ -26,3 +27,19 @@ MD5:534314ec312e8407cfdc6ef1ff21b804
 SHA-1:69dbf131116760932dcf132ade111d6b45778098
 
 ```
+
+# Windows XP 集成SP3 简体中文 32位
+- 文件名：zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74070.iso
+- 大客户版 vol=volume
+- [Windows XP](https://www.imsdn.cn/operating-systems/windows-xp/)
+- [emaul下载链接](ed2k://|file|zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74070.iso|630237184|EC51916C9D9B8B931195EE0D6EE9B40E|/)
+
+## 校验信息
+```
+文件名：zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74070.iso
+文件大小：601.04MB
+发布时间：2008-05-02
+SHA1：D142469D0C3953D8E4A6A490A58052EF52837F0F
+```
+
+
