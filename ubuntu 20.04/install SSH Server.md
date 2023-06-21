@@ -8,7 +8,8 @@
 
 以 root 或者其他 sudo 用户身份执行下面的步骤，在你的 Ubuntu 系统上安装并且启用 SSH。
 
-## 1.1. 使用Ctrl+Alt+T打开终端，并且安装openssh-server软件包：
+## 1.1. 安装openssh-server
+使用Ctrl+Alt+T打开终端，并且安装openssh-server软件包：
 
 ```
 sudo apt update
@@ -16,7 +17,8 @@ sudo apt install openssh-server
 ```
 当被提示时，输入你的密码并且按 Enter，继续安装。
 
-## 1.2. 一旦安装完成，SSH 服务将会被自动启动。你可以验证 SSH 是否正在运行，输入：
+## 1.2. 验证 SSH 是否正在运行
+一旦安装完成，SSH 服务将会被自动启动。你可以验证 SSH 是否正在运行，输入：
 ```
 sudo systemctl status ssh
 ```
@@ -27,7 +29,8 @@ ssh.service - OpenBSD Secure Shell server
     Active: active (running) since Mon 2020-06-01 12:34:00 CEST; 9h ago
 ...
 ```
-## 1.3. Ubuntu 自带一个配置防火墙配置工具，称为 UFW。如果防火墙在你的系统上被启用，请确保打开了 SSH 端口：
+## 1.3. 打开防火墙
+Ubuntu 自带一个配置防火墙配置工具，称为 UFW。如果防火墙在你的系统上被启用，请确保打开了 SSH 端口：
 ```
 sudo ufw allow ssh
 ```
