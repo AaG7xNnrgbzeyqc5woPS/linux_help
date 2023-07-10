@@ -47,6 +47,22 @@ MD5: e74d72f3d90456003e9e02ba0fb7da61
 ISO/CRC: FFFFFFFF
 
 ```
+
+```
+以下信息来自网站 https://msdn.itellyou.cn/
+文件名
+    zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74070.iso
+SHA1
+    D142469D0C3953D8E4A6A490A58052EF52837F0F
+文件大小
+    601.04MB
+发布时间
+    2008-05-02
+
+ed2k://|file|zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74070.iso|630237184|EC51916C9D9B8B931195EE0D6EE9B40E|/
+```
+
+
 ## 2.2 VOL安装密钥：
  ```
  MRX3F-47B9T-2487J-KWKMF-RPWBY
