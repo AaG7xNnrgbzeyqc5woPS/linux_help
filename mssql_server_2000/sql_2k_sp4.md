@@ -7,7 +7,7 @@
 
 # SQL Sever 各版本下载 
 
-
+```
 SQL Server 2012
 SQL Server 2012 开发版（DVD）(X64,X86)(中文简体)
 ed2k://|file|cn_sql_server_2012_developer_edition_x86_x64_dvd_813281.iso|5054384128|AD91243654BB2FB7F74F26654134B91B|/
@@ -61,8 +61,7 @@ SQL Server 2000 个人版(中文简体)
 ed2k://|file|sc_sql_2000a_personal.iso|475969536|86A373A87147015C9D5124122319E3EC|/
 
 SQL Server 2000 标准版(中文简体)
-
 ed2k://|file|sc_sql_2000a_std.iso|476000256|1AA9C959E683C01C5745EB6083F59768|/
-
+```
 
 
