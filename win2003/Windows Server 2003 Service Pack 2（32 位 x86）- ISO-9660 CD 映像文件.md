@@ -1,10 +1,11 @@
 # see:
-
 - [Windows Server 2003 Service Pack 2（32 位 x86）- ISO-9660 CD 映像文件](https://www.microsoft.com/zh-CN/download/details.aspx?id=21700)
+- [单击此处手动下载 window2003_sp2_x86_chs](https://download.microsoft.com/download/f/f/1/ff1fc101-c59d-4210-a865-4154a1209436/w2k3sp2_3959_chs_x86fre_spcd.iso)
 
-# 
+# 说明
 Microsoft Windows Server 2003 Service Pack 2 (SP2) 是一个累积的 Service Pack，它包括最新的更新程序并且增强了安全性和稳定性。 
-# 
+
+# 详情
 ```
  版本：
 
@@ -39,7 +40,7 @@ File Size:
 
 ```
 
-# 
+# 支持的操作系统
 ```
  支持的操作系统
 
@@ -48,12 +49,12 @@ Windows Server 2003, Windows Server 2003 R2 (32-Bit x86), Windows Server 2003 Se
 
 ```
 
-# 
+# 使用
 在本页单击“下载”链接即可开始下载。
 若要将 ISO 映像下载文件复制到您的计算机上供以后刻录 CD，请单击“保存”或“将该程序保存到磁盘”。
 使用 CD 刻录机的指令从 ISO-9660 映像文件创建 CD
-#
-Windows Server 2003 SP2 中的更新程序列表
-Windows Server 2003 SP2 主页
-用于基于 Itanium 的系统的 Windows Server 2003 SP2 ISO 映像
-Windows Server 2003 SP2 x64 Edition ISO 映像
+# 资源
+- Windows Server 2003 SP2 中的更新程序列表
+- Windows Server 2003 SP2 主页
+- 用于基于 Itanium 的系统的 Windows Server 2003 SP2 ISO 映像
+- Windows Server 2003 SP2 x64 Edition ISO 映像
