@@ -14,6 +14,33 @@ File Name: w2k3sp2_3959_chs_x86fre_spcd.iso
 File Size: 372.1 MB
 ```
 
+# 包校验信息
+
+```
+Name: WINDOWSSERVER2003-KB914961-SP2-X86-CHS.EXE
+Folder: -
+Size: 377 180 528
+Packed Size: 377 180 528
+Modified: 2007-03-07 20:00:00
+----------------------------
+Size: 390 067 932
+Packed Size: 390 067 932
+Folders: 4
+Files: 19
+----------------------------
+Path: /home/john/Downloads/w2k3sp2_3959_chs_x86fre_spcd.iso
+Type: Iso
+Physical Size: 390 135 808
+Comment: 
+Volume: CR0SP2_CN
+VolumeSet: CR0SP2_CN
+Publisher: MICROSOFT CORPORATION
+Preparer: MICROSOFT CORPORATION, ONE MICROSOFT WAY, REDMOND WA 98052, (425) 882-8080
+Application: CDIMAGE 2.52 (03/09/2004 TM)
+Created: 2007-03-08 04:00:00
+```
+
+#
 
 Microsoft Windows Server 2003 Service Pack 2 (SP2) 是一个累积的 Service Pack，它包括最新的更新程序并且增强了安全性和稳定性。此外，它还在现有的 Windows Server 2003 功能和实用程序中添加了新的功能和更新程序。
 
