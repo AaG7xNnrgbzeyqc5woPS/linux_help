@@ -1,6 +1,7 @@
 windows 2003 server
 # 0. See:
 - https://www.cnblogs.com/wpjamer/p/4120023.html
+- https://msdn.itellyou.cn/
 
 # 1. Windows Server 2003 激活码及激活方法：
 
