@@ -28,3 +28,33 @@ SHA1
 ```
 ed2k://|file|cn_win_srv_2003_r2_enterprise_with_sp2_vl_cd2_X13-13895.iso|129703936|512C89A5839FFC8A3F3124ACB9E9CB75|/
 ```
+
+# Windows Server 2003 R2, Enterprise x64 Edition with SP2 - Disc 1 - VL (Simplified Chinese)
+```
+文件名
+    cn_win_srv_2003_r2_enterprise_x64_with_sp2_vl_cd1_X13-47314.iso
+SHA1
+    FDA1A0401CA610F6E3A7780D6DB004DA2F944138
+文件大小
+    617.68MB
+发布时间
+    2007-04-27
+```
+```
+ed2k://|file|cn_win_srv_2003_r2_enterprise_x64_with_sp2_vl_cd1_X13-47314.iso|647686144|107F10D2A7FF12FFF0602FF60602BB37|/
+```
+
+# Windows Server 2003 R2, Enterprise x64 Edition with SP2 - Disc 2 - VL (Simplified Chinese)
+```
+文件名
+    cn_win_srv_2003_r2_enterprise_x64_with_sp2_vl_cd2_X13-35321.iso
+SHA1
+    42CB2508F37B7B3331B8EB7A04D58DB508248821
+文件大小
+    170.9MB
+发布时间
+    2007-04-27
+```
+```
+ed2k://|file|cn_win_srv_2003_r2_enterprise_x64_with_sp2_vl_cd2_X13-35321.iso|179204096|651EDB26E33E1AD0F14430245D4D44C6|/
+```
