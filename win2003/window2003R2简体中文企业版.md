@@ -1,5 +1,9 @@
+# See:
+- https://msdn.itellyou.cn/
 
-# Windows Server 2003 R2, Enterprise Edition with SP2 - Disc 1 - VL (Simplified Chinese)
+# 1. Windows Server 2003 R2 简体中文企业版 32位 带SP2
+
+## 1.1 Windows Server 2003 R2, Enterprise Edition with SP2 - Disc 1 - VL (Simplified Chinese)
 ```
 文件名
     cn_win_srv_2003_r2_enterprise_with_sp2_vl_cd1_X13-46432.iso
@@ -14,7 +18,7 @@ SHA1
 ed2k://|file|cn_win_srv_2003_r2_enterprise_with_sp2_vl_cd1_X13-46432.iso|637917184|284DC0E76945125035B9208B9199E465|/
 ```
 
-# Windows Server 2003 R2, Enterprise Edition with SP2 - Disc 2 - VL (Simplified Chinese)
+## 1.2 Windows Server 2003 R2, Enterprise Edition with SP2 - Disc 2 - VL (Simplified Chinese)
 ```
 文件名
     cn_win_srv_2003_r2_enterprise_with_sp2_vl_cd2_X13-13895.iso
@@ -28,8 +32,8 @@ SHA1
 ```
 ed2k://|file|cn_win_srv_2003_r2_enterprise_with_sp2_vl_cd2_X13-13895.iso|129703936|512C89A5839FFC8A3F3124ACB9E9CB75|/
 ```
-
-# Windows Server 2003 R2, Enterprise x64 Edition with SP2 - Disc 1 - VL (Simplified Chinese)
+# 2. Windows Server 2003 R2 简体中文企业版 64位 带SP2
+## 2.1 Windows Server 2003 R2, Enterprise x64 Edition with SP2 - Disc 1 - VL (Simplified Chinese)
 ```
 文件名
     cn_win_srv_2003_r2_enterprise_x64_with_sp2_vl_cd1_X13-47314.iso
@@ -44,7 +48,7 @@ SHA1
 ed2k://|file|cn_win_srv_2003_r2_enterprise_x64_with_sp2_vl_cd1_X13-47314.iso|647686144|107F10D2A7FF12FFF0602FF60602BB37|/
 ```
 
-# Windows Server 2003 R2, Enterprise x64 Edition with SP2 - Disc 2 - VL (Simplified Chinese)
+## 2.2 Windows Server 2003 R2, Enterprise x64 Edition with SP2 - Disc 2 - VL (Simplified Chinese)
 ```
 文件名
     cn_win_srv_2003_r2_enterprise_x64_with_sp2_vl_cd2_X13-35321.iso
