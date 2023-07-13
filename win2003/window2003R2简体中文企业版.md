@@ -1,4 +1,4 @@
-# See:
+ # See:
 - https://msdn.itellyou.cn/
 
 # 1. Windows Server 2003 R2 简体中文企业版 32位 带SP2
@@ -62,3 +62,26 @@ SHA1
 ```
 ed2k://|file|cn_win_srv_2003_r2_enterprise_x64_with_sp2_vl_cd2_X13-35321.iso|179204096|651EDB26E33E1AD0F14430245D4D44C6|/
 ```
+
+# 3. CheckSum 下载后实际计算
+## 3.1 win2003r2_enterprise_64bit two CD
+```
+名称: cn_win_srv_2003_r2_enterprise_x64_with_sp2_vl_cd1_X13-47314.iso
+大小: 647686144 字节 (617 MiB)
+CRC32: FFFFFFFF
+CRC64: 53A87D94022776FF
+SHA256: 0a4023c7aeae60767bfcd539fb0207d1aa67364e9bc4c53508c8fdf60992a24d
+SHA1: fda1a0401ca610f6e3a7780d6db004da2f944138
+BLAKE2sp: 7820eb604f2fa331017dca5e86c308d78e267db7c6a6fc8d685d9d64cf8c90c7
+
+名称: cn_win_srv_2003_r2_enterprise_x64_with_sp2_vl_cd2_X13-35321.iso
+大小: 179204096 字节 (170 MiB)
+CRC32: 42B94FC6
+CRC64: 0FEC68CDF612BCCF
+SHA256: e7f3719509792cea7c3a36631cc4785d5795af1ff3cf1f2c12f9e2cff83436de
+SHA1: 42cb2508f37b7b3331b8eb7a04d58db508248821
+BLAKE2sp: 580131c87fd6389489d333914a980a192d6549cdcb1b07a6c0e8662b497b351a
+
+```
+
+## 3.2 win2003r2_enterprise_32bit two CD
