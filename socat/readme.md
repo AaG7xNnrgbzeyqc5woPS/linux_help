@@ -1,4 +1,5 @@
 # See: 
+- [socat - Multipurpose relay - offical web ](http://www.dest-unreach.org/socat/)
 - [Linux 中的 Socat 命令示例](https://www.51cto.com/article/717314.html)
 - [Socat 入门教程](https://www.hi-linux.com/posts/61543.html)
 - [用socat转发端口](https://fasionchan.com/network/toolkit/socat/)
