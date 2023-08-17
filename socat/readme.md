@@ -43,3 +43,10 @@ $ sudo socat – TCP4:linuxmi.com:80
 ```
 $ sudo socat TCP4-LISTEN:www TCP4:linuxmi.com:www
 ```
+
+# 例子六 监听远程套接字上的特定端口
+
+如果我们想监听一个特定的端口，接受它的连接并将它转发到一个远程的 Unix 套接字，例如 mysql.sock，我们会以如下方式实现 socat 命令：
+```
+$ sudo socat TCP-LISTEN:3309,reuseaddr,fork UNIX-CONNECT:/var/lib/mysql/mysql.sock
+```
