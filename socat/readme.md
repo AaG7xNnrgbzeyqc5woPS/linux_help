@@ -21,3 +21,25 @@ $ sudo socat TCP4-LISTEN:81   TCP4:192.168.122.1:80
 $ sudo socat TCP4-LISTEN:81,fork,reuseaddr  TCP4:TCP4:192.168.122.1:80
 ```
 您可以使用键盘组合取消端口转发[Ctrl]+c。
+
+# 例子三  监听特定端口
+
+我们可以指示socat通过TCP协议监听特定端口，例如80 ，并通过STDOUT打印出任何相关的发现，如下所示：
+```
+$ sudo socat TCP4-LISTEN:80 STDOUT
+```
+TCP可以切换到其他不同的值，例如TCP6、TCP6-LISTEN和TCP4。
+
+# 例子四 连接到远程服务器的端口
+
+要连接到与端口关联的服务器，我们将运行：
+```
+$ sudo socat – TCP4:linuxmi.com:80 
+```
+
+# 例子五 监听本地端口
+
+监听本地端口www：
+```
+$ sudo socat TCP4-LISTEN:www TCP4:linuxmi.com:www
+```
