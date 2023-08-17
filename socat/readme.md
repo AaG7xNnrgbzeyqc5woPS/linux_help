@@ -51,3 +51,36 @@ $ sudo socat TCP4-LISTEN:www TCP4:linuxmi.com:www
 ```
 $ sudo socat TCP-LISTEN:3309,reuseaddr,fork UNIX-CONNECT:/var/lib/mysql/mysql.sock
 ```
+# 例子七 文件操作 通过 Socat 读取文件
+## 原文：
+```
+# 从绝对路径读取
+$ socat - /var/www/html/flag.php 
+
+# 从相对路径读取
+$ socat - ./flag.php
+
+    注:这里的路径一般是绝对路径，如果要使用相对路径记得要加上 ./
+```
+### 测试：
+```
+root@socat:~# ls
+root@socat:~# nano test.txt  //建立文件
+root@socat:~# ls    //显示目录，建立文件成功
+test.txt
+root@socat:~# socat - ./test.txt    //读出文件
+socat test file
+read file
+
+root@socat:~# socat ./test.txt -   //还是读出文件
+socat test file
+read file
+
+root@socat:~# 
+
+```
+❤️ 改变前后地址的次序，还是能的读出文件，下面两个命令效果一样
+```
+socat ./test.txt -
+socat - ./test.txt
+```
