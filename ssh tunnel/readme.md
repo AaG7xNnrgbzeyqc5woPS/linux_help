@@ -37,6 +37,7 @@ Now when your tunnel goes down it will automatically try to reconnect and keep t
 
 # ❤️[一键安装最新内核并开启 BBR 脚本](https://teddysun.com/489.html)
  - 购买服务器后，可以使用上面的 ssh -N -D 9889 SSH_SEERVER 命令建立翻墙代理
+ - Firefox 的 代理插件设置，使用 sock5://127.0.0.1:9889，亲测有效！用其它协议无效。
  - 可以浏览github,继续安装更专业的翻墙代理了
  - 第一件事情就是 打开 BBR，这样 ssh隧道速度超快
  - 注意：ssh隧道流量太大，会受到神秘力量的干扰，会断流。
