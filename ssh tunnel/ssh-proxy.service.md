@@ -48,7 +48,7 @@ ServerAliveCountMax 15
 
 ```
 
-## 3.2 第一次调试
+## 3.2 调试过程
 使用以下命令调试ssh-proxy服务
 ```
 # sudo systemctl status
@@ -68,3 +68,18 @@ ServerAliveCountMax 15
 - id文件读取没有问题了，但是启动服务时候，ssh链接还是失败，想到是否 root 下还没有认证 ssh服务器，所以最后将 known_hosts 文件拷贝到 /root/.ssh下
 - 这个时候，一切条件都满足了，启动 ssh-proxy.service 终于成功啦！
 
+# 4 ssh-tunel 测试
+- ssh-proxy.service 启动后，使用 firefox浏览器测试
+- firefox proxy 插件，需要设置位 sock5 模式，sock5://127.0.0.1:9889
+- 打开 youbtube, google均成功！
+- 调试后可用的 ssh-proxy.service 文件见 #1
+
+# 5. 总结：
+- linux 服务 关键要建立一个 ssh-proxy.service 服务定义文件
+- 这个文件建立在 /etc/systemd/system/ 目录下，拥有者为 root:root
+- 这个文件也可以是一个软链接，指向其它地方
+- ssh tunnel 可以使用 -i 参数指定 私钥，-F 参数指定配置文件，不同于./ssh/config
+- 配置文件，服务定义文件中的文件路径都要用 绝对路径，root拥有读权限。
+- ssh 私钥 安全非常重要，只有拥有这owner才有读写权限，其它用户什么权限都没有。
+- 自动登陆 ssh 需要事先准备好 known_hosts 文件，免得ssh 链接的时候认证 失败
+- 
