@@ -28,7 +28,7 @@ WantedBy=multi-user.target
 # 3. 设置软链接
 1. 为了 方便管理，将 socat.service 文件放在 home目录下   
    路径：/home/john/service/socat.service  
-2. 在 ls /etc/systemd/system 路径下建立软链接  
+2. :在 ls /etc/systemd/system 路径下建立软链接  
   sudo ln -s  /home/john/service/socat.service /etc/systemd/system  
   注意：使用root用户，使用绝对路径
 3. sudo ls /etc/systemd/system 查看软链接是否建立成功，如果是红色说明没有成功，可能是目的路径找到不到。
