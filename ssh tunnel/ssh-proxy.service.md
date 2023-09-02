@@ -17,11 +17,11 @@ WantedBy=multi-user.target
 ```
 
 # 2. 背景
-为了更方便的使用 ssh tunnel 科学上网，想将原先的ssh tunnel指令做成服务  
-原先经过验证可用的指令：ssh -N -D 9889 sbox &  
-sbox是 ~/.ssh/config 配置文件 中的一个配置项    
+- 为了更方便的使用 ssh tunnel 科学上网，想将原先的ssh tunnel指令做成服务  
+- 原先经过验证可用的指令：ssh -N -D 9889 sbox &  
+- sbox是 ~/.ssh/config 配置文件 中的一个配置项    
 
-~/.ssh/config
+~/.ssh/config  
 ```
 # ~/.ssh/config
 Host sbox
