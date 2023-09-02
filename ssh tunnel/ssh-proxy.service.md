@@ -70,7 +70,7 @@ ServerAliveCountMax 15
 
 # 4 ssh-tunel 测试
 - ssh-proxy.service 启动后，使用 firefox浏览器测试
-- firefox proxy 插件，需要设置位 sock5 模式，sock5://127.0.0.1:9889
+- ❤️ firefox proxy 插件，需要设置为 sock5 模式，sock5://127.0.0.1:9889，💔其它http,https模式均不行！
 - 打开 youbtube, google均成功！
 - 调试后可用的 ssh-proxy.service 文件见 #1
 
