@@ -63,5 +63,8 @@ ServerAliveCountMax 15
 - 认证不通过，配置文件中使用绝对地址的私钥。
 - 认证还是不通过，改进，在 ssh-proxy.service 文件中的ssh 命令使用 -i 参数指定绝对路径的私钥。
 - 还是不能通过，检查后发现，john用户的私钥的对root没有读权限。
-- 改进，如果设置 该文件对 root 有读权限，
+-     改进，如果设置 该文件对 root 有读权限，ssh 程序禁止链接，ssh程序为了安全性，只允许owner 对 id文件拥有读写权限，组用户和其它用户读权限也不能有。
+-     所以，只能另外想办法，最后 将 /home/john/.ssh/id_ed25519 文件拷贝到 /root/.ssh/id_ed25519
+- id文件读取没有问题了，但是启动服务时候，ssh链接还是失败，想到是否 root 下还没有认证 ssh服务器，所以最后将 known_hosts 文件拷贝到 /root/.ssh下
+- 这个时候，一切条件都满足了，启动 ssh-proxy.service 终于成功啦！
 
