@@ -39,6 +39,8 @@ WantedBy=multi-user.target
 3. sudo ls /etc/systemd/system 查看软链接是否建立成功，如果是红色说明没有成功，可能是目的路径找到不到。
 
 # 4. 启动服务 socat.service
+   sudo systemctl start  socat.service
+   sudo systemctl is-active socat.service
 4. sudo systemctl status socat.service  
 5. sudo systemctl enable socat.service
 6. sudo systemctl start socat.service
