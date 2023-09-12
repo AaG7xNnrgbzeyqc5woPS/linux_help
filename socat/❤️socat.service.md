@@ -39,12 +39,14 @@ WantedBy=multi-user.target
 3. sudo ls /etc/systemd/system 查看软链接是否建立成功，如果是红色说明没有成功，可能是目的路径找到不到。
 
 # 4. 启动服务 socat.service
-   sudo systemctl start  socat.service
-   sudo systemctl is-active socat.service
-4. sudo systemctl status socat.service  
-5. sudo systemctl enable socat.service
-6. sudo systemctl start socat.service
-7. sudo systemctl daemon-reload  如果需要使用这条命令装载配置文件
+1. sudo systemctl start  socat.service
+2. sudo systemctl is-active socat.service
+3. sudo systemctl status socat.service  
+4. sudo systemctl enable socat.service
+5. sudo systemctl daemon-reload  如果需要使用这条命令装载配置文件
+6. systemctl restart socat.service
+7. systemctl stop socat.service
+8. systemctl is-enabled socat.service
 
 # 5. 最后使用 sql server 应用程序，看看配置是否真正成功
 
