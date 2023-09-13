@@ -10,6 +10,9 @@ Type=simple
 ExecStart=/usr/bin/ssh -F /home/john/.ssh/config -i /root/.ssh/id_ed25519 -N -D 9889 sbox
 ExecReload=/bin/kill -HUP $MAINPID
 ExecStop=/bin/kill $MAINPID
+Restart=on-failure
+RestartSec=10s
+PIDFile=/tmp/ssh-proxy.pid
 
 [Install]
 WantedBy=multi-user.target
