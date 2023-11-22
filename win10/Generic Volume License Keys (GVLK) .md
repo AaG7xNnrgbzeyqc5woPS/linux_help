@@ -5,41 +5,42 @@
 
 Key Management Services (KMS) client activation and product keys
 
-    Article
-    09/05/2023
+    Article  09/05/2023
 
-In this article
-
-    Install a product key
-    Generic Volume License Keys (GVLK)
+** In this article **
+- Install a product key
+- Generic Volume License Keys (GVLK)
 
 To use KMS, you need to have a KMS host available on your local network. Computers that activate with a KMS host need to have a specific product key. This key is sometimes referred to as the KMS client key, but it's formally known as a Microsoft Generic Volume License Key (GVLK). Computers that are running volume licensing editions of Windows Server and Windows client are, by default, KMS clients with no extra configuration needed as the relevant GVLK is already there.
 
 There are some scenarios, however, where you'll need to add the GVLK to the computer you wish to activate against a KMS host, such as:
 
-    Converting a computer from using a Multiple Activation Key (MAK)
-    Converting a retail license of Windows to a KMS client
-    If the computer was previously a KMS host
+- Converting a computer from using a Multiple Activation Key (MAK)
+- Converting a retail license of Windows to a KMS client
+- If the computer was previously a KMS host
 
-Important
-
+** Important **
+```
 To use the keys listed here (which are GVLKs), you must first have a KMS host available on your local network. If you don't already have a KMS host, please see how to create a KMS host to learn more.
 
 If you want to activate Windows without a KMS host available and outside of a volume-activation scenario (for example, you're trying to activate a retail version of Windows client), these keys will not work. You will need to use another method of activating Windows, such as using a MAK, or purchasing a retail license. Get help to find your Windows product key and learn about genuine versions of Windows.
-Install a product key
+```
+
+## Install a product key
 
 If you're converting a computer from a KMS host, MAK, or retail edition of Windows to a KMS client, install the applicable product key (GVLK) from the list below. To install a client product key, open an administrative command prompt on the client, and run the following command and then press Enter:
-
+```
 slmgr /ipk <product key>
-
+```
 For example, to install the product key for Windows Server 2022 Datacenter edition, run the following command and then press Enter:
-
+```
 slmgr /ipk WX4NM-KYWYW-QJJR4-XV3QB-6VM33
+```
 
-Generic Volume License Keys (GVLK)
+## Generic Volume License Keys (GVLK)
 
 In the tables that follow, you'll find the GVLKs for each version and edition of Windows. LTSC is Long-Term Servicing Channel, while LTSB is Long-Term Servicing Branch.
-Windows Server (LTSC versions)
+#### Windows Server (LTSC versions)
 Windows Server 2022
 Operating system edition 	KMS Client Product Key
 Windows Server 2022 Datacenter 	WX4NM-KYWYW-QJJR4-XV3QB-6VM33
@@ -56,7 +57,8 @@ Operating system edition 	KMS Client Product Key
 Windows Server 2016 Datacenter 	CB7KF-BWN84-R7R2Y-793K2-8XDDG
 Windows Server 2016 Standard 	WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY
 Windows Server 2016 Essentials 	JCKRF-N37P4-C2D82-9YXRT-4M63B
-Windows Server (Semi-Annual Channel versions)
+
+### Windows Server (Semi-Annual Channel versions)
 Windows Server, versions 20H2, 2004, 1909, 1903, and 1809
 Operating system edition 	KMS Client Product Key
 Windows Server Datacenter 	6NMRW-2C8FM-D24W7-TQWMY-CWH2D
@@ -67,7 +69,8 @@ Important
 Windows Server, version 20H2 reached end of service on August 9, 2022 and is no longer receiving security updates. This includes the retirement of Windows Server Semi-Annual Channel (SAC) with no future releases.
 
 Customers using Windows Server SAC should move to Azure Stack HCI. Alternatively, customers may use the Long-Term Servicing Channel of Windows Server.
-Windows 11 and Windows 10 (Semi-Annual Channel versions)
+
+### Windows 11 and Windows 10 (Semi-Annual Channel versions)
 
 See the Windows lifecycle fact sheet for information about supported versions and end of service dates.
 Operating system edition 	KMS Client Product Key
@@ -95,7 +98,8 @@ Windows 11 Enterprise G
 Windows 10 Enterprise G 	YYVX9-NTFWV-6MDM3-9PT4T-4M68B
 Windows 11 Enterprise G N
 Windows 10 Enterprise G N 	44RPN-FTY23-9VTTB-MP9BX-T84FV
-Windows 10 (LTSC/LTSB versions)
+
+### Windows 10 (LTSC/LTSB versions)
 Windows 10 LTSC 2021 and 2019
 Operating system edition 	KMS Client Product Key
 Windows 10 Enterprise LTSC 2021
@@ -110,7 +114,8 @@ Windows 10 LTSB 2015
 Operating system edition 	KMS Client Product Key
 Windows 10 Enterprise 2015 LTSB 	WNMTR-4C88C-JK8YV-HQ7T2-76DF9
 Windows 10 Enterprise 2015 LTSB N 	2F77B-TNFGY-69QQF-B8YKP-D69TJ
-Earlier versions of Windows Server
+
+### Earlier versions of Windows Server
 Windows Server, version 1803
 Operating system edition 	KMS Client Product Key
 Windows Server Datacenter 	2HXDN-KRXHB-GPYC7-YCKFJ-7FVDG
