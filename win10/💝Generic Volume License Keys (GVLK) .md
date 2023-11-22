@@ -41,12 +41,11 @@ In the tables that follow, you'll find the GVLKs for each version and edition of
 
 ### 2.1 Windows Server (LTSC versions)
 **Windows Server 2022**
-|Operating system edition 	      | KMS Client Product Key        |
-|---------------------------------|-------------------------------|
-|Windows Server 2022 Datacenter 	| WX4NM-KYWYW-QJJR4-XV3QB-6VM33 |
-|Windows Server 2022 Datacenter   |                               |
-|Azure Edition 	                  | NTBV8-9K7Q8-V27C6-M2BTV-KHMXV |
-|Windows Server 2022 Standard 	  | VDYBN-27WPP-V4HQT-9VMD4-VMK7H |
+|Operating system edition 	                     | KMS Client Product Key        |
+|:-----------------------------------------------|:------------------------------|
+|Windows Server 2022 Datacenter 	               | WX4NM-KYWYW-QJJR4-XV3QB-6VM33 |
+|Windows Server 2022 Datacenter Azure Edition 	 | NTBV8-9K7Q8-V27C6-M2BTV-KHMXV |
+|Windows Server 2022 Standard 	                 | VDYBN-27WPP-V4HQT-9VMD4-VMK7H |
 
 **Windows Server 2019**
 Operating system edition 	KMS Client Product Key
