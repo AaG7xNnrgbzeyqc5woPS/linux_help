@@ -19,7 +19,7 @@ There are some scenarios, however, where you'll need to add the GVLK to the comp
 - Converting a retail license of Windows to a KMS client
 - If the computer was previously a KMS host
 
-** Important **
+**Important**
 ```
 To use the keys listed here (which are GVLKs), you must first have a KMS host available on your local network. If you don't already have a KMS host, please see how to create a KMS host to learn more.
 
