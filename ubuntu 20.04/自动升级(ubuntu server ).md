@@ -6,6 +6,7 @@
    - [Ubuntu系统怎么手动进行更新升级?](https://www.jb51.net/os/Ubuntu/397838.html)
 
 # 1. 简单的方法
+     sudo  apt install  unattended-upgrades
      sudo dpkg-reconfigure -plow unattended-upgrades 
      
 # 2. 命令行手动更新
