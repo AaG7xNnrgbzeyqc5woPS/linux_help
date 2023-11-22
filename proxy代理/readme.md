@@ -5,4 +5,8 @@
  - [set_proxy_http.sh](https://github.com/AaG7xNnrgbzeyqc5woPS/nixos_config/blob/master/set_proxy_http.sh)
  - [curl proxy.md](https://github.com/AaG7xNnrgbzeyqc5woPS/linux_help/blob/master/proxy%E4%BB%A3%E7%90%86/curl%20proxy.md)
   
-  
+# 修改权限
+```
+chmod u+x *.sh
+chmod a-x *.sh
+```
