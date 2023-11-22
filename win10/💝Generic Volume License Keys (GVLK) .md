@@ -1,5 +1,5 @@
 # See:
-- [Key Management Services (KMS) client activation and product keys](https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys)
+- ：💝[Key Management Services (KMS) client activation and product keys](https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys)
 
 # Key Management Services (KMS) client activation and product keys
 
@@ -19,11 +19,8 @@ There are some scenarios, however, where you'll need to add the GVLK to the comp
 - If the computer was previously a KMS host
 
 **Important**
-```
 To use the keys listed here (which are GVLKs), you must first have a KMS host available on your local network. If you don't already have a KMS host, please see how to create a KMS host to learn more.
-
 If you want to activate Windows without a KMS host available and outside of a volume-activation scenario (for example, you're trying to activate a retail version of Windows client), these keys will not work. You will need to use another method of activating Windows, such as using a MAK, or purchasing a retail license. Get help to find your Windows product key and learn about genuine versions of Windows.
-```
 
 ## 1. Install a product key
 
@@ -41,33 +38,37 @@ slmgr /ipk WX4NM-KYWYW-QJJR4-XV3QB-6VM33
 In the tables that follow, you'll find the GVLKs for each version and edition of Windows. LTSC is Long-Term Servicing Channel, while LTSB is Long-Term Servicing Branch.
 
 ### 2.1 Windows Server (LTSC versions)
-Windows Server 2022
-Operating system edition 	KMS Client Product Key
-Windows Server 2022 Datacenter 	WX4NM-KYWYW-QJJR4-XV3QB-6VM33
-Windows Server 2022 Datacenter
-Azure Edition 	NTBV8-9K7Q8-V27C6-M2BTV-KHMXV
-Windows Server 2022 Standard 	VDYBN-27WPP-V4HQT-9VMD4-VMK7H
-Windows Server 2019
+**Windows Server 2022**
+|Operating system edition 	      | KMS Client Product Key        |
+|---------------------------------|-------------------------------|
+|Windows Server 2022 Datacenter 	| WX4NM-KYWYW-QJJR4-XV3QB-6VM33 |
+|Windows Server 2022 Datacenter   |                               |
+|Azure Edition 	                  | NTBV8-9K7Q8-V27C6-M2BTV-KHMXV |
+|Windows Server 2022 Standard 	  | VDYBN-27WPP-V4HQT-9VMD4-VMK7H |
+
+**Windows Server 2019**
 Operating system edition 	KMS Client Product Key
 Windows Server 2019 Datacenter 	WMDGN-G9PQG-XVVXX-R3X43-63DFG
 Windows Server 2019 Standard 	N69G4-B89J2-4G8F4-WWYCC-J464C
 Windows Server 2019 Essentials 	WVDHN-86M7X-466P6-VHXV7-YY726
-Windows Server 2016
-Operating system edition 	KMS Client Product Key
-Windows Server 2016 Datacenter 	CB7KF-BWN84-R7R2Y-793K2-8XDDG
-Windows Server 2016 Standard 	WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY
-Windows Server 2016 Essentials 	JCKRF-N37P4-C2D82-9YXRT-4M63B
+
+**Windows Server 2016**
+|Operating system edition 	|KMS Client Product Key|
+|---------------------------------|-------------------------------|
+|Windows Server 2016 Datacenter 	|CB7KF-BWN84-R7R2Y-793K2-8XDDG|
+|Windows Server 2016 Standard 	|WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY|
+|Windows Server 2016 Essentials 	|JCKRF-N37P4-C2D82-9YXRT-4M63B|
 
 ### 2.2 Windows Server (Semi-Annual Channel versions)
-Windows Server, versions 20H2, 2004, 1909, 1903, and 1809
-Operating system edition 	KMS Client Product Key
-Windows Server Datacenter 	6NMRW-2C8FM-D24W7-TQWMY-CWH2D
-Windows Server Standard 	N2KJX-J94YW-TQVFB-DG9YT-724CC
+**Windows Server, versions 20H2, 2004, 1909, 1903, and 1809**
+|Operating system edition 	|KMS Client Product Key|
+|---------------------------------|-------------------------------|
+|Windows Server Datacenter 	|6NMRW-2C8FM-D24W7-TQWMY-CWH2D|
+|Windows Server Standard 	|N2KJX-J94YW-TQVFB-DG9YT-724CC|
 
-Important
+**Important**
 
 Windows Server, version 20H2 reached end of service on August 9, 2022 and is no longer receiving security updates. This includes the retirement of Windows Server Semi-Annual Channel (SAC) with no future releases.
-
 Customers using Windows Server SAC should move to Azure Stack HCI. Alternatively, customers may use the Long-Term Servicing Channel of Windows Server.
 
 ### 2.3 Windows 11 and Windows 10 (Semi-Annual Channel versions)
