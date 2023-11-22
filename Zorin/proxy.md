@@ -36,12 +36,12 @@ This way is ok! Test it OK!
 
 ```
 $ sudo nano /etc/environment
-   # Add a line: http_proxy="192.168.2.2:9995"
-   # Add a line: https_proxy="192.168.2.2:9995"
+   # Add a line: http_proxy="http://192.168.2.2:9995"
+   # Add a line: https_proxy="http://192.168.2.2:9995"
 $ cat /etc/environment
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
-http_proxy="192.168.2.2:9995"
-https_proxy="192.168.2.2:9995"
+http_proxy="http://192.168.2.2:9995"
+https_proxy="http://192.168.2.2:9995"
 $ sudo systemctl restart snapd
 $ sudo snap list
 $ sudo snap install ...
@@ -50,6 +50,21 @@ $ neofecth
 ```
 Test it Ok! 
 This is better way than "2.1  snap set "
+
+# Test for apt and git clone ok
+
+```
+cat /etc/environment
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+http_proxy="http://192.168.2.2:9995"
+https_proxy="http://192.168.2.2:9995"
+```
+reboot
+env | grep http
+git clone ...
+apt update
+apt upgrade 
+
 
 
 
