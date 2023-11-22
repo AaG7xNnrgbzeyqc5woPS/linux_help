@@ -7,7 +7,7 @@ Key Management Services (KMS) client activation and product keys
 
     Article  09/05/2023
 
-** In this article **
+**In this article**
 - Install a product key
 - Generic Volume License Keys (GVLK)
 
