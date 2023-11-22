@@ -6,8 +6,10 @@
    - [Ubuntu系统怎么手动进行更新升级?](https://www.jb51.net/os/Ubuntu/397838.html)
 
 # 1. 简单的方法
-     sudo  apt install  unattended-upgrades
-     sudo dpkg-reconfigure -plow unattended-upgrades 
+```
+sudo apt install  unattended-upgrades
+sudo dpkg-reconfigure -plow unattended-upgrades 
+```
      
 # 2. 命令行手动更新
 1. 按 Ctrl＋alt＋t，打开终端，输入：$ sudo apt-get update，用于检查当前的源服务器上，是否有可用的更新。
@@ -15,7 +17,7 @@
 3. 上述命令如果出现不成功的提示，有可能是因为软件包之间的依赖关系导致的问题。这时，可以用以下命令代替：$ sudo apt-get dist-upgrade
 
 ```
-    $ sudo apt-get update
-    $ sudo apt-get upgrade
-    $ sudo apt-get dist-upgrade
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get dist-upgrade
 ```
