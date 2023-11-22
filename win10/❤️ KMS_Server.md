@@ -14,6 +14,7 @@
 - for git
 - for apt
 - for docker-compose up -d
+- ubuntu 22.04 LTS AT "PVE CT 4G RAM"
 ```
 sudo nano /etc/environment
 # Add a line: http_proxy="http://192.168.2.2:9995"
