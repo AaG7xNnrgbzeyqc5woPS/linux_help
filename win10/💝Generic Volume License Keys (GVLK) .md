@@ -19,7 +19,9 @@ There are some scenarios, however, where you'll need to add the GVLK to the comp
 - If the computer was previously a KMS host
 
 **Important**
+
 To use the keys listed here (which are GVLKs), you must first have a KMS host available on your local network. If you don't already have a KMS host, please see how to create a KMS host to learn more.
+
 If you want to activate Windows without a KMS host available and outside of a volume-activation scenario (for example, you're trying to activate a retail version of Windows client), these keys will not work. You will need to use another method of activating Windows, such as using a MAK, or purchasing a retail license. Get help to find your Windows product key and learn about genuine versions of Windows.
 
 ## 1. Install a product key
