@@ -4,13 +4,20 @@
 - [Wind4/vlmcsd - kms source code](https://github.com/Wind4/vlmcsd)
 - [Wind4/vlmcsd-docker & dockercompose](https://github.com/Wind4/vlmcsd-docker)
 
-# 1. Wind4 KMS Docker
-- ❤️ [Wind4 KMS Docker](https://github.com/Wind4/vlmcsd-docker)
+# 1. docker images 安装 
+- [teddysun/kms](https://hub.docker.com/r/teddysun/kms)
+- docker hub 直接下载images 安装，快捷方便,
+- ❤️2023/11/22 安装成功！第一次安装，一次成功！
+
+
+# 2. Wind4 KMS Docker
+-  [Wind4 KMS Docker](https://github.com/Wind4/vlmcsd-docker)
 - 上面这个链接是 原作者的 docker 文件！
 - 使用docker安装简单便捷
+- 这个需要编译images，有点麻烦，今天尝试了一次，失败！2023/11/22
 
-# 2. git proxy 
-- tesk ok!
+# 3. git proxy 
+- ❤️ tesk ok! 2023/11/22
 - for git
 - for apt
 - for docker-compose up -d
