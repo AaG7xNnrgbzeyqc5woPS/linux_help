@@ -27,6 +27,9 @@ sudo service zerotier-one stop
 - On Mac this is /Library/Application Support/ZeroTier/One in your terminal, type open /Library/Application Support/ZeroTier/One to open the folder in Finder.
 - On Linux this is usually /var/lib/zerotier-one
 
+- 注释： \ProgramData\ZeroTier\One 这是一个隐藏目录，需要选择显示隐藏目录。也可以使用文件夹的搜索功能，直接搜索 identity.public
+- linux search command: find / -name 'identity.public'
+
 # Step 3. Restart the service
 **On Windows**
 
