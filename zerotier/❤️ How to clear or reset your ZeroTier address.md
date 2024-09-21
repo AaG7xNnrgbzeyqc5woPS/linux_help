@@ -50,8 +50,8 @@ sudo service zerotier-one start
 When started without identities ZeroTier will generate new ones. You will need to authorize this new identity on any networks.
 
 # 测试：
-  1，使用 windows 10  zerotier-one,通过删除identity的方法，重新获得了ID,并且加入网络Ok，ping Ok
-  2, 使用 linux, 按照教程再做一遍，也是Ok
+-  1，使用 windows 10  zerotier-one,通过删除identity的方法，重新获得了ID,并且加入网络Ok，ping Ok   
+-  2, 使用 linux, 按照教程再做一遍，也是Ok   
 
 # 总结：
  Delete the files identity.public and identity.secret and restart the service
