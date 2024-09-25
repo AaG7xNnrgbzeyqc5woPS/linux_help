@@ -12,13 +12,14 @@
 - [Introduction to Guest Additions](https://www.virtualbox.org/manual/topics/guestadditions.html#guestadd-intro)
 - [Installing the Linux Guest Additions](https://www.virtualbox.org/manual/topics/guestadditions.html#additions-linux-install)
 
-# 主要问题：
-- 安装附件后，并不能自动扩展屏幕，并且经常会在屏幕扩展操作的时候死机。
+# 一、主要问题：
+- 安装附件后，不能自动扩展屏幕，更改分辨率， 并且经常会在屏幕扩展操作的时候死机。
+- 这会导致很大的问题，几乎无法使用，并且附件安装不能成功，也会导致性能大幅度下降
 
-# 分析1 附件（Linux Guest Additions）安装不正确?
-- 首先想到的是附件（Linux Guest Additions）安装不正确。
+# 二、分析1 
+- **首先想到的是附件（Linux Guest Additions）安装不正确。**
 
- ### 以下是需要注意的地方：
+**以下是需要注意的地方：**
 1，更新软件源，找国内最快的，使用的软件“Softeware and updates”
 
 2，命令行中升级软件的命令：
