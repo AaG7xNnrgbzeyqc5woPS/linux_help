@@ -18,10 +18,16 @@
 # 分析1：
 - 首先想到的是附件（Linux Guest Additions）安装不正确。
 - 以下是需要主要的地方：
-- 更新软件源，找国内最快的，使用的软件“Softeware and updates”
-- 升级软件的命令：
+- 1，更新软件源，找国内最快的，使用的软件“Softeware and updates”
+- 2，命令行中升级软件的命令：
 ```
   sudo apt update
   sudo apt upgrade
+```
+- 3，安装附件Linux Guest Additions的命令：
+- [Installing the Linux Guest Additions](https://www.virtualbox.org/manual/topics/guestadditions.html#additions-linux-install)
+```
+./VBoxLinuxAdditions.run  //这个命令也可以安装，使用 sudo ./VBoxLinuxAdditions.run 反而会安装失败
+sh ./VBoxLinuxAdditions.run  // 这个是官方文档中推荐的方法
 ```
 
