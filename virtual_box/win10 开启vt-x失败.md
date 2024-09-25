@@ -14,14 +14,14 @@ bcdedit /set hypervisorlaunchtype off
 - 成功的判断方法：使用软件 LeoMoon CPU-V 判断！
 
 # 二、问题及分析：
-1，  windows 10 做为宿主机下，使用 virtual box 做虚拟机管理系统。windows xp 作为客户机，
+- 1，  windows 10 做为宿主机下，使用 virtual box 做虚拟机管理系统。windows xp 作为客户机，
 一直存在不稳定的情况。现在已经查明，是  windows 10 的  Hyper-V 与 virtual box 相冲突。
-2，本来 各个厂家有个协议，让虚拟机管理系统互相兼容，希望能共存。
+- 2，本来 各个厂家有个协议，让虚拟机管理系统互相兼容，希望能共存。
    但是实际情况并不理想，导致有时候还能用，有的时候不能用。
-3，最彻底的解决方案是，关闭 windows 自身的 Hyper-V
-4，经过实践，关闭Hyper-V后，两个虚拟机，一个delphi-xp开发机，一个是xp-administrator,使用都非常好，
+- 3，最彻底的解决方案是，关闭 windows 自身的 Hyper-V
+- 4，经过实践，关闭Hyper-V后，两个虚拟机，一个delphi-xp开发机，一个是xp-administrator,使用都非常好，
    导入进来就没有问题，速度非常快。升级 virtual box到最新版（客户端也升级到最新），测试也没有问题。
-5，不完美的地方：客户机xp上的字体不是很清晰
+- 5，不完美的地方：客户机xp上的字体不是很清晰
 
 #  三、LeoMoon CPU-V
   注释1：
