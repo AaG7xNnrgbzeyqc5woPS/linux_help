@@ -17,20 +17,24 @@
 
 # 分析1 附件（Linux Guest Additions）安装不正确?
 - 首先想到的是附件（Linux Guest Additions）安装不正确。
-- 以下是需要注意的地方：
-- 1，更新软件源，找国内最快的，使用的软件“Softeware and updates”
-- 2，命令行中升级软件的命令：
+
+ ### 以下是需要注意的地方：
+1，更新软件源，找国内最快的，使用的软件“Softeware and updates”
+
+2，命令行中升级软件的命令：
 ```
   sudo apt update
   sudo apt upgrade
 ```
-- 3，安装附件Linux Guest Additions的命令：
+
+3，安装附件Linux Guest Additions的命令：
 - [Installing the Linux Guest Additions](https://www.virtualbox.org/manual/topics/guestadditions.html#additions-linux-install)
 ```
 ./VBoxLinuxAdditions.run  //这个命令也可以安装，使用 sudo ./VBoxLinuxAdditions.run 反而会安装失败
 sh ./VBoxLinuxAdditions.run  // 这个是官方文档中推荐的方法
 ```
 4，如果命令运行失败，按照提示信息，安装需要的依赖包
+
 5，另外补充几个可能需要的包
 ```
 sudo apt update
@@ -40,6 +44,7 @@ sudo apt install bzip2 tar gdebi
 ```
 sudo apt-get install -f
 ```
+
 7, Linux 安装 Chrome浏览器
 ```
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
