@@ -16,5 +16,12 @@
 - 安装附件后，并不能自动扩展屏幕，并且经常会在屏幕扩展操作的时候死机。
 
 # 分析1：
-- 
+- 首先想到的是附件（Linux Guest Additions）安装不正确。
+- 以下是需要主要的地方：
+- 更新软件源，找国内最快的，使用的软件“Softeware and updates”
+- 升级软件的命令：
+```
+  sudo apt update
+  sudo apt upgrade
+```
 
