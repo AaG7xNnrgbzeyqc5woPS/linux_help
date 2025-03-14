@@ -1,4 +1,6 @@
-# [Windows安装rsync命令一键脚本](https://www.wyr.me/post/749)
+- [Windows安装rsync命令一键脚本](https://www.wyr.me/post/749)
+
+# Windows安装rsync命令一键脚本
 
 在Windows上安装rsync通常需要使用诸如WSL2或Cygwin等解决方案。然而，这些方法可能会导致性能下降、系统资源占用高以及用户体验不佳等问题。因此，我们将通过一个简单的PowerShell脚本来安装cwRsync，避免上述问题。
 
