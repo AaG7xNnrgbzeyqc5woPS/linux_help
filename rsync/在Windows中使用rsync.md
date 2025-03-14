@@ -2,4 +2,4 @@
 
 - # 重点：
 - 注意：rsync不支持Windows格式的路径（例如C:\some\path\），cwrsync使用/cygdrive/c/some/path/，映射到C盘的对应路径。(经过测试Ok，windows10 作为 rsync服务器)
-- 
+- 没错，cygwin用的路径也是/cygdrive/c/some/path/，因为cwrsync其实是基于cygwin开发的。
