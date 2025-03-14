@@ -3,6 +3,9 @@
 
 # see:
 - [install SSH Server](https://github.com/AaG7xNnrgbzeyqc5woPS/linux_help/blob/master/ubuntu%2020.04/install%20SSH%20Server.md)
+- [How to set up authorized keys for dropbear local to openssh remote](https://serverfault.com/questions/910973/how-to-set-up-authorized-keys-for-dropbear-local-to-openssh-remote)
+- [使用 gropbear 生成私钥文件](https://github.com/AaG7xNnrgbzeyqc5woPS/OpenWrt/tree/master/ssh)
+- [Linux 客户端 SSH 登录 Windows10 远程主机 ](https://github.com/felix-cao/Blog/issues/206)
 
 # systemcl command
  加载 .service 文件
