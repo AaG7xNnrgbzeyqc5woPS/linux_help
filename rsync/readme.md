@@ -16,6 +16,7 @@ Invoke-Expression -Command ([System.Text.Encoding]::UTF8.GetString((Invoke-WebRe
 这个命令会下载并运行位于 https://util.apio.xyz/public/InstallRsync.ps1的脚本。
 脚本内容
 
+~~~
 # 检查是否具有管理员权限
 function Test-IsAdmin {
     $identity = [Security.Principal.WindowsIdentity]::GetCurrent()
@@ -101,6 +102,8 @@ if ($LASTEXITCODE -eq 0) {
 # 暂停等待按键
 Write-Host "Press any key to exit..."
 $host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown") | Out-Null
+
+~~~
 
 脚本做了什么事情？
 
