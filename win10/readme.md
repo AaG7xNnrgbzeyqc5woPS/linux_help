@@ -1,0 +1,2 @@
+- [Microsoft Activation Scripts (MAS)- mainpage](https://massgrave.dev/)
+- [Microsoft Activation Scripts (MAS)- github](https://github.com/massgravel/Microsoft-Activation-Scripts)
