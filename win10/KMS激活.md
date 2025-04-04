@@ -32,14 +32,15 @@
 
 - 注意：仅 Windows Vista 及以上系统可以使用 KMS 激活，且 Windows7 旗舰版 不支持 KMS 激活。
 - 这里以 Windows 10 专业版和 Office 2016 为例演示如何激活。
-- ❤️KMS 激活也需要密钥，且每个系统版本的密钥不同，不过只有 1 个密钥，比如 Windows 10 专业版的密钥：W269N-WFGWX-YVC9B-4J6C9-T83GX
-- Windows KMS 密钥：https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys
-- Office KMS 密钥：https://docs.microsoft.com/en-us/deployoffice/vlactivation/gvlks
+- ❤️KMS 激活也需要密钥，且每个系统版本的密钥不同，不过只有 1 个密钥，
+- 比如 Windows 10 专业版的密钥：W269N-WFGWX-YVC9B-4J6C9-T83GX
+- Windows KMS 密钥官网：https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys
+- Office KMS 密钥官网：https://docs.microsoft.com/en-us/deployoffice/vlactivation/gvlks
 
 ``` 
 右键开始菜单，点击 [命令提示符 (管理员)] 或 [Windows PowerShell (管理员)]
 输入 slmgr /upk 卸载原有密钥，如果是刚装好的系统，这一步可以省略。
-输入 slmgr /skms 192.168.1.1 设置 KMS 服务器地址，如果你的路由器 IP 不是 192.168.1.1，记得改一下。
+输入 slmgr /skms 192.168.1.1 设置 KMS 服务器地址，如果你的服务器 IP 不是 192.168.1.1，记得改一下。
 输入 slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX 安装 KMS 密钥
 输入 slmgr /ato 查看激活状态，如果显示 “成功地激活了产品”，表示激活成功，
 每隔 180 天会自动续订，不需要担心激活过期。
