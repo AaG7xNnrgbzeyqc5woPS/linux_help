@@ -13,8 +13,8 @@
 :start
 
 slmgr /upk
-slmgr /skms 10.153.70.238  
-slmgr /ipk NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J
+slmgr /skms 10.147.19.2
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
 slmgr /ato
 
 slmgr -dlv
