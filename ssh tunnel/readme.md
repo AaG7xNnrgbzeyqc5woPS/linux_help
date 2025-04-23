@@ -22,6 +22,17 @@
   ssh SSH_SEERVER                  # 假设这是登陆 SSH_SEERVER 的指令
   ssh -N -D 9889 SSH_SEERVER       # 这一条指令可以建立一个动态端口转发，端口为 9889。
 ```
+# 监听所有本地网络接口
+- 要让命令 ssh -N -D 9889 SSH_SERVER 创建的动态端口转发（SOCKS代理）监听所有本地网络接口（而不仅仅是默认的 localhost），需要加上 -g 选项：
+- 如果不指定绑定地址，使用 -g 则默认绑定所有接口
+- 加上 -g 后，允许外部主机访问该端口
+- 监听所有接口后，其他网络设备就可以通过该机器的IP和端口访问这个SOCKS代理。
+```
+ssh -N -D 0.0.0.0:9889 -g SSH_SERVER  # 绑定所有ip4接口
+ssh -N -D :9889 -g SSH_SERVER         # 简写
+ssh -N -D 9889 -g SSH_SERVER          # 绑定所有接口，包括ip4,ip6
+ssh -N -D 192.168.2.0:9889 -g SSH_SERVER  # 绑定 192.168.2.0
+```
 
 # Autossh
 
