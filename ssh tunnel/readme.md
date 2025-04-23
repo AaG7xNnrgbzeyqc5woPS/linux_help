@@ -32,7 +32,16 @@ ssh -N -D 0.0.0.0:9889 -g SSH_SERVER  # 绑定所有ip4接口
 ssh -N -D :9889 -g SSH_SERVER         # 简写
 ssh -N -D 9889 -g SSH_SERVER          # 绑定所有接口，包括ip4,ip6
 ssh -N -D 192.168.2.0:9889 -g SSH_SERVER  # 绑定 192.168.2.0
+ 
 ```
+
+# 调试发现的问题
+
+```
+# /usr/bin/ssh -F /root/.ssh/config -i /root/.ssh/id_ed25519 -N -D 0.0.0.0:9889  sbox-server &
+# /usr/bin/ssh -F /root/.ssh/config -i /root/.ssh/id_ed25519 -N -D 0.0.0.0:9889 -D [::]:9899 sbox-server &
+# ss -nltup
+```  
 
 # Autossh
 
