@@ -1,4 +1,4 @@
-- linu更换节点地址脚本 [reset_zerotier_nodeid](zerotier/reset_zerotier_nodeid.sh)
+- #### linu更换节点地址脚本 [reset_zerotier_nodeid](reset_zerotier_nodeid.sh)
 # See:
 - [Main Web - ztncui ](https://key-networks.com/)
 - [Main Web - zerotier](https://www.zerotier.com/)
