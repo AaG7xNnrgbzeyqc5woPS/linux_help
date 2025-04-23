@@ -13,7 +13,7 @@
 #zerotier-cli listnetworks
 #zerotier-cli peers
  
-# zerotier-cli leave <networkid>
+# zerotier-cli join <networkid>
 # zerotier-cli leave <networkid>
 
 systemctl stop zerotier-one.service
