@@ -34,13 +34,15 @@ ssh -N -D 9889 -g SSH_SERVER          # 绑定所有接口，包括ip4,ip6
 ssh -N -D 192.168.2.0:9889 -g SSH_SERVER  # 绑定 192.168.2.0
  
 ```
-- 经过调试，发现 -G参数 有问题，不能识别，是不是因为大小写问题？
+- 经过调试，发现 -G参数 有问题，参数不能识别，是不是因为大小写问题？
+- 用小写命令 -g 可以执行
 
 # 调试发现的问题
 
 ```
 # /usr/bin/ssh -F /root/.ssh/config -i /root/.ssh/id_ed25519 -N -D 0.0.0.0:9889  sbox-server &
 # /usr/bin/ssh -F /root/.ssh/config -i /root/.ssh/id_ed25519 -N -D 0.0.0.0:9889 -D [::]:9899 sbox-server &
+# /usr/bin/ssh -F /root/.ssh/config -i /root/.ssh/id_ed25519 -N -D *:9889 -g sbox-server &
 # ss -nltup
 ```  
 
