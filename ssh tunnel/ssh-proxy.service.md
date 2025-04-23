@@ -7,7 +7,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/ssh -F /home/john/.ssh/config -i /root/.ssh/id_ed25519 -N -D 9889 sbox
+ExecStart=/usr/bin/ssh -F /home/john/.ssh/config -i /root/.ssh/id_ed25519 -N -D 9889 -g sbox
 ExecReload=/bin/kill -HUP $MAINPID
 ExecStop=/bin/kill $MAINPID
 Restart=on-failure
@@ -93,4 +93,11 @@ ServerAliveCountMax 15
 
 # 7. 调试中遇到的难点：
   - 多次遇到问题是，建立的软链接对应的文件不存在，或者软链接路路径错误,直接拷贝帮助文件中的命令导致的错误,需要仔细检查，按照自己的需要修改。
-  - 必要的时候，使用 cat /etc/systemd/system/ssh-proxy.service 显示内容，如果是错误的软链接，显示的内容就不会对。 
+  - 必要的时候，使用 cat /etc/systemd/system/ssh-proxy.service 显示内容，如果是错误的软链接，显示的内容就不会对。
+
+# 8. 进一步改进(2025-4-23)
+- 希望整个局域网都能访问 ssh-proxy.server
+- 使用 -g 参数，绑定全部的网络接口，否则只绑定 回环接口localhost
+- -D 参数可以多个使用，这样就可以绑定多个接口
+- 地址可以用 *:9889代替全部地址，ip4/ip6都包括
+- 
