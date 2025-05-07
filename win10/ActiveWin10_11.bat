@@ -3,8 +3,8 @@
 
 #---------------------------------------------------------------------------------------
 # Key Management Services (KMS) client activation and product keys
-# 1. Windows 10/11 Enterprise LTSC 2019/2021/2024 	      M7XTQ-FN8P6-TTKYV-9D4CC-J462D
-# 2. Windows 10/11 Pro for Workstations 	                NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J
+# 1. Windows 10/11 Enterprise LTSC 2019/2021/2024 	   M7XTQ-FN8P6-TTKYV-9D4CC-J462D
+# 2. Windows 10/11 Pro for Workstations 	             NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J
 # 3. Windows 10/11 Pro 	                                  W269N-WFGWX-YVC9B-4J6C9-T83GX
 # 4. 更多密钥见微软官网：
 #    https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys?tabs=server2025%2Cwindows1110ltsc%2Cversion1803%2Cwindows81
