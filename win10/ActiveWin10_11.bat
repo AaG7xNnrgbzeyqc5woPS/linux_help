@@ -2,6 +2,7 @@
 文件名：ActiveWin10.bat
 
 #---------------------------------------------------------------------------------------
+# KMS激活和产品密钥
 # Key Management Services (KMS) client activation and product keys
 # 1. Windows 10/11 Enterprise LTSC 2019/2021/2024 	  M7XTQ-FN8P6-TTKYV-9D4CC-J462D
 # 2. Windows 10/11 Pro for Workstations 	          NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J
@@ -14,6 +15,8 @@
 .\ActiveWin10.bat
 
 #--------------------------------------------
+# tips: 
+# windows 11 如何如果跳过微软账号登录，直接建立本地用户？
 在Windows 11的安装过程中，跳过网络用户设置并直接建立本地用户，可以通过以下步骤实现：
 1. 使用命令行跳过网络连接
 1.1   按下快捷键：在联网页面，按下Shift + F10（部分笔记本可能需要按Shift + Fn + F10），打开命令提示符窗口。
