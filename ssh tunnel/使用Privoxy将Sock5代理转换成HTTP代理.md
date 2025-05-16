@@ -8,16 +8,17 @@
 hadowsocks只支持SOCK5代理，然而大多数的软件（包括平板无线网络的代理设置）只支持HTTP代理，这就难搞了。
 经过一番探查，发现一个名叫 [Privoxy](https://www.privoxy.org/) 的应用可以帮我们将SOCK5代理转换成HTTP代理。
 
-1. 安装privoxy
+### 1. 安装privoxy
 ```
 sudo apt install -y privoxy
 ```        
 
-2. 修改Privoxy配置
+### 2. 修改Privoxy配置
 
-**使用Privoxy必须指定转发规则，Privoxy的主配置文件在/etc/privoxy/config**  
-~~~Privoxy的配置文件路径为 /usr/privoxy/config~~~
+**使用Privoxy必须指定转发规则，Privoxy的主配置文件在/etc/privoxy/config** 
+
 我们需要修改里面的 listen-address 选项
+
 ```
 listen-address  0.0.0.0:8118
 ```    
@@ -29,12 +30,12 @@ listen-address  0.0.0.0:8118
 forward-socks5   /               127.0.0.1:1080 .
 ```    
 
-重启Privoxy服务
+### 3. 重启Privoxy服务
 ```
 sudo systemctl restart privoxy.service
 ```    
 
-验证一把
+### 4. 验证一把
 ```
 curl -L --connect-timeout 2 -x 192.168.1.9:8118 https://google.com
 ```
