@@ -65,4 +65,5 @@ done Pass completed, 37 bad blocks found.
 ```
 将END和START换成结束和开始的块的编号就可以了。
 
-原文链接：https://www.linuxcool.com/badblocks
+# 总结：
+- ❤️如果找到了坏道，可以进行写入扫描进行**修复**，写入扫描遇到坏道的时候会自动重映射!
