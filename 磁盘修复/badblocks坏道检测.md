@@ -21,10 +21,11 @@ badblocks就是一个检查磁盘装置中损坏区块的命令，执行该命�
 -w 在检查时，执行写入测试 
 
 **参考实例** 
-通过命令扫描硬盘：
-[root@linuxcool ~]# badblocks -s -v /dev/sdnx 
-其中n表示硬盘设备名，x表示硬盘对应的分区号，例如需要检查”/dev/sda2″： 
-
+-  通过命令扫描硬盘：
+```
+[root@linuxcool ~]# badblocks -s -v /dev/sdnx  
+```
+其中n表示硬盘设备名，x表示硬盘对应的分区号，例如需要检查”/dev/sda2″：  
 ```
 [root@linuxcool ~]# badblocks -s -v /dev/sda2 
 Checking blocks 0 to 30681000 Checking for bad blocks (read-only test): 
@@ -44,20 +45,18 @@ Checking blocks 0 to 30681000 Checking for bad blocks (read-only test):
 done Pass completed, 37 bad blocks found.
 其中，“37 bad blocks found”表示硬盘存在37个坏块。
 ```
-以4096字节为一个“block”,每一个“block”检查1次, 将结果输出到“hda-badblocks-list.1”文件中，
+- 以4096字节为一个“block”,每一个“block”检查1次, 将结果输出到“hda-badblocks-list.1”文件中，
 由第51000 block开始，到63000 block结束：
 ```
 [root@linuxcool ~]# badblocks -b 4096 -c 1 /dev/hda1 -o hda-badblocks-list.1 63000 51000 
 ```
 
-扫描硬盘的损坏扇区或区块并写入到临时文件夹下的bad-blocks.txt文件中： 
+- 扫描硬盘的损坏扇区或区块并写入到临时文件夹下的bad-blocks.txt文件中： 
 ```
 [root@linuxcool ~]# badblocks -v -o /dev/sdb > /tmp/bad-blocks.txt
 ```
-如果找到了坏道，可以进行写入扫描进行修复。
 
-
-写入扫描遇到坏道的时候会自动重映射。写入扫描会覆盖原有数据，所以请先备份。写入扫描速度很低，所以应该只扫描只读扫描时候发现错误的部分： 
+- 如果找到了坏道，可以进行写入扫描进行修复。写入扫描遇到坏道的时候会自动重映射。写入扫描会覆盖原有数据，所以请先备份。写入扫描速度很低，所以应该只扫描只读扫描时候发现错误的部分： 
 ```
 [root@linuxcool ~]# badblocks -w -s /dev/sdb END START
 ```
