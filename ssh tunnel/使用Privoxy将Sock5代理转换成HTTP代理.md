@@ -15,8 +15,8 @@ sudo apt install -y privoxy
 
 2. 修改Privoxy配置
 
-**使用Privoxy必须指定转发规则，Privoxy的主配置文件在/etc/privoxy/config**
----Privoxy的配置文件路径为 /usr/privoxy/config---
+**使用Privoxy必须指定转发规则，Privoxy的主配置文件在/etc/privoxy/config**  
+~~~Privoxy的配置文件路径为 /usr/privoxy/config~~~
 我们需要修改里面的 listen-address 选项
 ```
 listen-address  0.0.0.0:8118
