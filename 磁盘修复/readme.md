@@ -2,7 +2,10 @@
 - [Linux 磁盘低级格式化操作指南及命令行详细解读](https://my.oschina.net/emacs_8754735/blog/17185164)
 - [如何安全高效地在 Linux 环境下执行磁盘低级格式化操作](https://my.oschina.net/emacs_8754731/blog/17185151)
 - [linux 低级格式化硬盘](https://cloud.tencent.com/developer/information/linux%20%E4%BD%8E%E7%BA%A7%E6%A0%BC%E5%BC%8F%E5%8C%96%E7%A1%AC%E7%9B%98)
-
+- [Linux检测磁盘坏道 ](https://owenyk.github.io/2021/11/26/Linux%E6%A3%80%E6%B5%8B%E7%A3%81%E7%9B%98%E5%9D%8F%E9%81%93/#comment-waline)
+- [linux修复磁盘坏道(本教程完全来自实例、实测，具体参数请根据个人情况修改)](https://zhuanlan.zhihu.com/p/417098586)
+- [Linux硬盘的检测--smartctl详细介绍](https://www.cnblogs.com/fiberhome/p/8275961.html)
+  
 # 常用磁盘坏道检测工具
 ## 1. fsck 命令
 - fsck（File System Check）是 Linux 中最常用的磁盘检查和修复工具。它可以检查并修复 ext2、ext3、ext4 等文件系统。
