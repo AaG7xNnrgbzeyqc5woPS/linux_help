@@ -2,6 +2,7 @@
 - [Windows 10 LTSC 长期服务版！免费下载、安装并激活教程，超级流畅！ | 零度解说](https://www.youtube.com/watch?v=tz3jM6UoDWo)
 - [ https://get.activated.win](https://get.activated.win/)
 - ❤️[Microsoft Activation Scripts (MAS)](https://massgrave.dev/)
+- [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
 # 脚本的使用
 1. powershell 管理员进入
