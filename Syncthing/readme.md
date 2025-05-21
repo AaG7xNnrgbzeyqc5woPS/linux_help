@@ -1,10 +1,10 @@
-# See:
+# 0. See:
 - [Syncthing Main Pages](https://syncthing.net/)
 - [Syncthing Getting Started](https://docs.syncthing.net/intro/getting-started.html)
 - [Welcome to Syncthing’s documentation!](https://docs.syncthing.net/)
 - [Syncthing Downloads](https://syncthing.net/downloads/)
 
-# Install at Untuntu 24.04 
+# 1. Install at Untuntu 24.04 
   - [install Guide](https://apt.syncthing.net/)
   - 
 
@@ -31,5 +31,22 @@ sudo apt-get update
 sudo apt-get install syncthing
 ```
 
-# run
+# 2. run
+- [Getting Started](https://docs.syncthing.net/intro/getting-started.html#)
+ssh登录ubuntu 24.04
+方法一：
+```
+> syncthing
+```
+
+方法二：
+```
+syncthing  --gui-address=0.0.0.0:8384
+syncthing  serve --gui-address=192.168.2.12:8384
+runuser -l syncthing -c  'syncthing  serve --gui-address=192.168.2.12:8384'
+runuser -l syncthing -c  'syncthing  serve'
+```
+# 3. Configuring
+1. The admin GUI starts automatically and remains available on http://localhost:8384/. Cookies are essential to the correct functioning of the GUI; please ensure your browser accepts them. 
+2. 根据配置的gui-address接口参数，使用 客户端电脑上的浏览器,打开syncthing服务器上的gui,  http://192.168.2.12:8384/
 
