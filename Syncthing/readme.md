@@ -52,3 +52,8 @@ runuser -l syncthing -c  'syncthing  serve'
 1. The admin GUI starts automatically and remains available on http://localhost:8384/. Cookies are essential to the correct functioning of the GUI; please ensure your browser accepts them. 
 2. 根据配置的gui-address接口参数，使用 客户端电脑上的浏览器,打开syncthing服务器上的gui,  http://192.168.2.12:8384/
 
+# 4. dockercompose
+- ❤️[linuxserver/syncthing](https://docs.linuxserver.io/images/docker-syncthing/)
+- [Docker Compose](https://docs.linuxserver.io/general/docker-compose/)
+- [Community Contributions - docker](https://docs.syncthing.net/users/contrib.html#contributions)
+
