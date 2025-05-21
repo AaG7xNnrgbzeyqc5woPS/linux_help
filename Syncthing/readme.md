@@ -46,6 +46,8 @@ syncthing  serve --gui-address=192.168.2.12:8384
 runuser -l syncthing -c  'syncthing  serve --gui-address=192.168.2.12:8384'
 runuser -l syncthing -c  'syncthing  serve'
 ```
+注释：经过测试 runuser -l syncthing 命令，的确使用 syncthing 运行后面的命令，gui没有不要使用root的提示了，/home/syncthing/.local/state/syncthing 目录下也有配置文件，使用的是用户syncthing配置环境。
+
 # 3. Configuring
 1. The admin GUI starts automatically and remains available on http://localhost:8384/. Cookies are essential to the correct functioning of the GUI; please ensure your browser accepts them. 
 2. 根据配置的gui-address接口参数，使用 客户端电脑上的浏览器,打开syncthing服务器上的gui,  http://192.168.2.12:8384/
